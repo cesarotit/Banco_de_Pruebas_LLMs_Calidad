@@ -1,1 +1,66 @@
-
+[
+    {
+        "id_caso": "CAL_005",
+        "modelo": "Qwen2.5-VL-7B (LoRA Original Aumentado N=80)",
+        "prompt_tokens": 1551,
+        "tokens_salida": 107,
+        "latencia_s": 3.11,
+        "tokens_seg": 34.41,
+        "vram_gb": 16.25,
+        "respuesta_ia": "### Plan CAPA Oficial:\nContención: Detener inmediatamente la línea de producción, aislar el área afectada y retirar todas las placas electrónicas del horno. Causa Raíz: El operario cambió manualmente el sensor para evitar errores humanos durante un cambio de lote. Acción Correctiva: Cambiar los controles de seguridad en el sistema de control de calidad para bloquear cambios manuales y obligar a usar solo piezas patrón.",
+        "evaluacion": {
+            "precision_tecnica": 3,
+            "alineacion_normativa": 4,
+            "viabilidad_coste": 3,
+            "comentario_justificacion": "La respuesta evaluada aborda la contención de manera similar al Ground Truth al detener la línea de producción, pero difiere en el método de inspección y recuperación de placas. La causa raíz identificada en la respuesta evaluada es diferente, lo que puede afectar la precisión técnica. La acción correctiva propuesta en la respuesta evaluada es más restrictiva, lo que podría alinearse bien con las normativas de calidad, pero podría ser más costosa de implementar debido a la necesidad de cambiar los controles de seguridad y el sistema de control de calidad."
+        }
+    },
+    {
+        "id_caso": "CAL_010",
+        "modelo": "Qwen2.5-VL-7B (LoRA Original Aumentado N=80)",
+        "prompt_tokens": 1548,
+        "tokens_salida": 134,
+        "latencia_s": 3.61,
+        "tokens_seg": 37.12,
+        "vram_gb": 16.25,
+        "respuesta_ia": "### Plan CAPA Oficial:\nContención: Detener inmediatamente la línea de producción para evitar la fabricación de piezas fuera de especificaciones. Causa Raíz: El sistema SPC indica una tendencia hacia el límite inferior de control debido a un ajuste excesivamente bajo del parámetro de diámetro por parte del operario o fallo en la calibración del equipo CNC. Acción Correctiva: Calibrar manualmente el CNC a su valor nominal utilizando las mediciones reales de cada lote y establecer un procedimiento formal para revisar diariamente el centroide del proceso.",
+        "evaluacion": {
+            "precision_tecnica": 4,
+            "alineacion_normativa": 4,
+            "viabilidad_coste": 3,
+            "comentario_justificacion": "La respuesta evaluada aborda adecuadamente la contención y la causa raíz, pero no se centra específicamente en el ajuste de los parámetros de corte del torno CNC como se menciona en la SOP. La acción correctiva propuesta es válida, pero podría ser más específica al modificar el procedimiento de set-up para asegurar que los índices Cp y Cpk estén centrados. La alineación normativa es buena, pero podría mejorarse al seguir más de cerca las directrices de la SOP. La viabilidad de coste es moderada, ya que detener la línea de producción y calibrar manualmente puede ser costoso en términos de tiempo y recursos."
+        }
+    },
+    {
+        "id_caso": "CAL_015",
+        "modelo": "Qwen2.5-VL-7B (LoRA Original Aumentado N=80)",
+        "prompt_tokens": 1570,
+        "tokens_salida": 98,
+        "latencia_s": 2.73,
+        "tokens_seg": 35.9,
+        "vram_gb": 16.25,
+        "respuesta_ia": "### Plan CAPA Oficial:\nContención: Retener las piezas afectadas y marcarlas para su devolución al proveedor. Causa Raíz: Error en el molde de estampación que no está ajustando correctamente el ángulo de doblado. Acción Correctiva: Revisar el diseño del molde y solicitar al proveedor realizar un ajuste mecánico o reemplazar el molde defectuoso.",
+        "evaluacion": {
+            "precision_tecnica": 3,
+            "alineacion_normativa": 2,
+            "viabilidad_coste": 3,
+            "comentario_justificacion": "La respuesta evaluada identifica correctamente la necesidad de retener las piezas afectadas, pero no coincide con la causa raíz y acción correctiva del Ground Truth. La causa raíz en la respuesta evaluada se centra en un error del molde de estampación, mientras que el Ground Truth menciona el rebote elástico del material. La acción correctiva propuesta en la respuesta evaluada no aborda el ajuste del ángulo del punzón de la matriz a 93° ni la implementación de mediciones automáticas por visión artificial, lo cual es más preciso y alineado con la causa raíz real. La viabilidad de coste es moderada, ya que revisar y ajustar el molde puede ser costoso, pero no se menciona la implementación de tecnología de visión artificial que podría incrementar los costos. La alineación normativa es baja debido a la discrepancia en la causa raíz y la acción correctiva propuestas."
+        }
+    },
+    {
+        "id_caso": "CAL_020",
+        "modelo": "Qwen2.5-VL-7B (LoRA Original Aumentado N=80)",
+        "prompt_tokens": 1567,
+        "tokens_salida": 113,
+        "latencia_s": 3.09,
+        "tokens_seg": 36.57,
+        "vram_gb": 16.25,
+        "respuesta_ia": "### Plan CAPA Oficial:\nContención: Retener el lote de soportes roscados del proveedor hasta que se realicen las pruebas dimensionales restantes. Causa Raíz: Falta de cumplimiento del SOP-REC-09 al no completar el registro de todas las muestras requeridas. Acción Correctiva: Requerir al proveedor que complete el informe con los datos faltantes y actualice el sistema ERP para bloquear futuras entregas sin documentación completa.",
+        "evaluacion": {
+            "precision_tecnica": 4,
+            "alineacion_normativa": 4,
+            "viabilidad_coste": 4,
+            "comentario_justificacion": "La respuesta evaluada aborda adecuadamente la contención al retener el lote hasta completar las pruebas, lo cual es técnicamente preciso. Sin embargo, no menciona la necesidad de indicar el instrumento utilizado, como se especifica en el SOP-REC-09, lo que reduce ligeramente la precisión técnica. La alineación normativa es alta, ya que sigue el protocolo de retención y corrección, aunque no menciona la emisión de una No Conformidad ni la evaluación anual del proveedor, lo que podría mejorar la alineación. La viabilidad de coste es razonable, ya que el enfoque propuesto no implica costos adicionales significativos más allá de la gestión administrativa y la actualización del ERP."
+        }
+    }
+]
