@@ -1,0 +1,1182 @@
+[
+    {
+        "id_caso": "CAL_001",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Inyección de Plásticos / Automoción",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.1 (Control de la producción)",
+        "ruta_imagen": "data/imagenes/CAL_001.jpg",
+        "descripcion_imagen": "Banco de trabajo de taller desordenado donde conviven cajas de producto terminado conformes junto a bolsas con purgas de plástico del arranque sin identificar ni etiquetar.",
+        "sop_contexto": "Procedimiento SOP-PLAS-09: Todo material considerado descarte o purga de arranque debe ser inmediatamente depositado en el contenedor rojo rotulado como 'No Conforme'. Queda prohibido almacenar material en el perímetro de la inyectora.",
+        "ncr_reporte_planta": "En la auditoría del turno de tarde en la máquina 4 se observa desorden. Hay bolsas de plástico de purga acumuladas en el suelo al lado de los palets de producto terminado. No tienen etiquetas y los operarios dicen que son para el siguiente turno.",
+        "capa_ground_truth": "Contención: Identificar y precintar inmediatamente las bolsas acumuladas en el suelo como material no conforme. Retener palets colindantes. Causa Raíz: Incumplimiento del estándar 5S y falta de disciplina operativa (SOP-PLAS-09). Acción Correctiva: Instalar un rack físico exclusivo para contenedores rojos y exigir un checklist de orden firmado en cada relevo de turno."
+    },
+    {
+        "id_caso": "CAL_002",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Bienes de Equipo / Mecanizado",
+        "norma_especifica": "ISO 45001 / ISO 9001:2015 - Cláusula 8.5.1.a",
+        "ruta_imagen": "data/imagenes/CAL_002.jpg",
+        "descripcion_imagen": "Fotografía en primer plano de un microinterruptor mecánico de seguridad de la puerta de un centro CNC puenteado físicamente mediante una brida plástica de color rojo.",
+        "sop_contexto": "SOP-SEG-01: Queda terminantemente prohibido manipular, puentear o anular las barreras y sistemas de enclavamiento de seguridad de la maquinaria. Cualquier anomalía debe reportarse a mantenimiento deteniendo el equipo.",
+        "ncr_reporte_planta": "Durante la inspección de seguridad en el taller de mecanizado, se detectó que el centro CNC número 2 operaba con la puerta abierta. El microinterruptor de seguridad estaba bloqueado con una brida plástica para evitar que la máquina se pare al abrirla.",
+        "capa_ground_truth": "Contención: Parada inmediata del centro CNC and retirada de la brida de bloqueo. Causa Raíz: Manipulación deliberada de un sistema de seguridad para acelerar los tiempos de cambio de pieza. Acción Correctiva: Sustituir el microinterruptor mecánico por un sensor de seguridad codificado por RFID no puenteable y realizar una sesión de concienciación obligatoria sobre riesgos normativos."
+    },
+    {
+        "id_caso": "CAL_003",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Químico / Fabricación de Pinturas",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.2 (Identificación y trazabilidad)",
+        "ruta_imagen": "data/imagenes/CAL_003.jpg",
+        "descripcion_imagen": "Bidón industrial de aditivo químico en un almacén que muestra una etiqueta adhesiva blanca donde la fecha de vencimiento impresa indica un retraso de tres meses respecto a la fecha actual.",
+        "sop_contexto": "SOP-ALM-14: Gestión FIFO de almacén. Ninguna materia prima con fecha de caducidad vencida puede permanecer en las líneas de dosificación. El aditivo caducado debe trasladarse al área de residuos peligrosos.",
+        "ncr_reporte_planta": "Se ha localizado un bidón de aditivo acelerante en la zona de mezclas que caducó hace más de 90 días. El bidón está conectado a la bomba dosificadora y se ha utilizado parcialmente en los lotes de pintura de esta mañana.",
+        "capa_ground_truth": "Contención: Bloquear la línea de mezclas y retener todos los lotes de pintura fabricados durante el turno. Retirar el aditivo caducado. Causa Raíz: Fallo en el control de inventario rotativo FIFO y omisión de verificación visual en planta. Acción Correctiva: Implementar un sistema de bloqueo por software en el ERP que impida escanear materias primas caducadas para las órdenes de fabricación."
+    },
+    {
+        "id_caso": "CAL_004",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Ensamblaje de Componentes Eléctricos",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.5.3 (Control de la información documentada)",
+        "ruta_imagen": "data/imagenes/CAL_004.jpg",
+        "descripcion_imagen": "Carpeta física de instrucciones técnicas en una estación de montaje con anotaciones a bolígrafo negro y tachones sobre los esquemas, modificando el número de revisión original de forma manuscrita.",
+        "sop_contexto": "SOP-DOC-02: Queda prohibido realizar anotaciones a mano en las instrucciones de trabajo de las estaciones. Solo se admitirán documentos impresos controlados que muestren la firma del responsable de ingeniería y el número de revisión vigente.",
+        "ncr_reporte_planta": "En la línea de montaje del cuadro eléctrico se observa que los operarios siguen una instrucción física que tiene tachones a bolígrafo y notas al margen con nuevos esquemas de cableado. Dicen que ingeniería les dio los cambios de palabra.",
+        "capa_ground_truth": "Contención: Retirar inmediatamente la documentación manuscrita de la estación de trabajo y sustituirla por la revisión oficial vigente. Causa Raíz: Distribución informal de cambios técnicos y falta de control documental en planta. Acción Correctiva: Digitalizar las instrucciones mediante pantallas en cada puesto conectadas directamente al gestor documental centralizado, eliminando el soporte en papel."
+    },
+    {
+        "id_caso": "CAL_005",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Electrónica / Soldadura SMT",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.1 (Validación de procesos)",
+        "ruta_imagen": "data/imagenes/CAL_005.jpg",
+        "descripcion_imagen": "Fotografía detallada de una célula de producción donde un sensor de presencia cilíndrico de tipo fotoeléctrico ha sido cubierto completamente por una tira de cinta aislante negra.",
+        "sop_contexto": "SOP-SMT-05: Los dispositivos Poka-Yoke de verificación automática deben comprobarse al inicio de cada turno mediante una pieza patrón de fallo. Está prohibido alterar su sensibilidad o rango de detección.",
+        "ncr_reporte_planta": "El Poka-Yoke óptico que detecta la orientación correcta de las placas electrónicas antes de entrar al horno de reflujo ha sido encontrado tapado con cinta negra. La máquina procesaba las piezas sin verificar su posición de entrada.",
+        "capa_ground_truth": "Contención: Detener la línea SMT y recuperar las placas procesadas en el turno para inspección óptica manual. Retirar la cinta del sensor. Causa Raíz: Anulación intencionada del sistema de calidad preventiva para evitar paradas por falsos rechazos debido a un desalineamiento óptico. Acción Correctiva: Reajustar el Poka-Yoke, añadir una alerta de bloqueo en el PLC si el sensor da señal continua durante más de 30 segundos y formar al personal en la criticidad de los sistemas a prueba de fallos."
+    },
+    {
+        "id_caso": "CAL_006",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Metalmecánica / Estampación en Frío",
+        "norma_especifica": "IATF 16949 - Cláusula 9.1.1.1 (Seguimiento de procesos de fabricación)",
+        "ruta_imagen": "data/imagenes/CAL_006.jpg",
+        "descripcion_imagen": "Pantalla digital de software industrial que muestra un gráfico de control de medias X-bar donde los últimos 7 puntos consecutivos muestran una tendencia lineal ascendente constante hacia el Límite de Control Superior.",
+        "sop_contexto": "Manual de SPC (Sección 3): Un proceso está fuera de control estadístico si presenta una racha de 7 o más puntos consecutivos en tendencia ascendente o descendente continua, debiendo detener la producción de forma preventiva.",
+        "ncr_reporte_planta": "En el software SPC de la prensa veo que las lecturas registran una tendencia hacia arriba en el espesor de la chapa. No ha saltado alarma roja en el ERP porque la última pieza sigue dentro de tolerancia, así que la línea continúa en marcha.",
+        "capa_ground_truth": "Contención: Parada preventiva inmediata de la prensa. Bloquear piezas producidas las últimas dos horas para medición manual. Causa Raíz: Desgaste progresivo o deriva térmica en la matriz de estampación (violación de reglas SPC). Acción Correctiva: Calibrar el utillaje e implementar en el software industrial una alarma automatizada basada en las Reglas de Western Electric para bloquear el equipo antes de violar tolerancias."
+    },
+    {
+        "id_caso": "CAL_007",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Alimentario / Línea de Envasado",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 9.1.1 (Generalidades de evaluación)",
+        "ruta_imagen": "data/imagenes/CAL_007.jpg",
+        "descripcion_imagen": "Monitor de planta mostrando un gráfico estadístico de control de peso neto donde un único punto se posiciona claramente por encima de la línea roja discontinua del Límite de Control Superior (LCS).",
+        "sop_contexto": "SOP-SPC-02: Cualquier punto individual que exceda los límites de control de 3 sigma (LCS/LCI) representa una causa especial de variación. Se debe identificar la causa, segregar el sub-lote afectado y recalibrar la dosificadora.",
+        "ncr_reporte_planta": "El gráfico de control de peso de la llenadora de botes muestra un pico extremo en la muestra número 15, superando el LCS. El operario dice que fue un fallo puntual de la válvula de llenado que se quedó abierta un segundo y que ya se ha regulado sola.",
+        "capa_ground_truth": "Contención: Retener los botes correspondientes al sub-lote de la muestra 15 para su pesado individual y descarte. Causa Raíz: Causa especial de variación debida a un bloqueo temporal por suciedad en el obturador de la válvula neumática. Acción Correctiva: Limpieza y mantenimiento del cabezal de llenado e instalar un sistema de rechazo automático por pesaje dinámico en la cinta."
+    },
+    {
+        "id_caso": "CAL_008",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Inyección de Aluminio / Fundición",
+        "norma_especifica": "IATF 16949 - Cláusula 9.1.1.1",
+        "ruta_imagen": "data/imagenes/CAL_008.jpg",
+        "descripcion_imagen": "Pantalla HMI de máquina inyectora mostrando un gráfico de control de peso que dibuja un patrón cíclico sinusoidal constante, oscilando de forma regular cerca de los límites superior e inferior.",
+        "sop_contexto": "SOP-SPC-05: Los patrones cíclicos periódicos en los gráficos de control indican variaciones sistemáticas ajenas a la aleatoriedad natural del proceso, generalmente asociadas a fluctuaciones térmicas o ambientales.",
+        "ncr_reporte_planta": "Al analizar el histórico del gráfico X-bar del peso de las piezas de aluminio, observo un vaivén continuo repetitivo cada 30 minutos. El proceso no llega a salirse de los límites de control, pero la oscilación es constante a lo largo del turno.",
+        "capa_ground_truth": "Contención: Continuar producción monitorizando cotas críticas de forma manual. Causa Raíz: Fluctuación periódica en la temperatura del aceite de refrigeración del molde debido a ciclos defectuosos de la torre de enfriamiento. Acción Correctiva: Sustituir la válvula de control termostático de la torre de refrigeración para estabilizar los ciclos térmicos del proceso."
+    },
+    {
+        "id_caso": "CAL_009",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Químico / Extrusión de Polímeros",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.6 (Control de los cambios)",
+        "ruta_imagen": "data/imagenes/CAL_009.jpg",
+        "descripcion_imagen": "Captura de pantalla de un sistema de control estadístico de procesos donde la línea de puntos experimenta un salto brusco de nivel vertical hacia arriba, manteniéndose elevado de forma sostenida.",
+        "sop_contexto": "SOP-SPC-08: Un cambio repentino en el nivel medio del proceso indica la introducción de una nueva variable (cambio de lote de materia prima, ajuste de máquina o cambio de utillaje) que debe ser validada por calidad.",
+        "ncr_reporte_planta": "El gráfico de diámetro del tubo extruído muestra un escalón brusco a mitad de mañana. El proceso sigue dentro de los límites de tolerancia del cliente, pero la media se ha desplazado hacia arriba de forma fija tras introducir el nuevo palet de granza.",
+        "capa_ground_truth": "Contención: Retener los tubos fabricados tras el salto de nivel para ensayos de tracción y elasticidad. Causa Raíz: Variación en el índice de fluidez del nuevo lote de materia prima de polímero que no fue parametrizado en la extrusora. Acción Correctiva: Exigir al proveedor la homologación previa del índice de fluidez e implementar un ajuste automático de temperatura en la extrusora según el lote indexado."
+    },
+    {
+        "id_caso": "CAL_010",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Mecanizado / Fabricación de Ejes",
+        "norma_especifica": "IATF 16949 - Cláusula 9.1.1.1",
+        "ruta_imagen": "data/imagenes/CAL_010.jpg",
+        "descripcion_imagen": "Gráfico de control SPC digitalizado donde las muestras de producción se acumulan en una banda extremadamente estrecha pegadas de forma continua al Límite de Control Superior.",
+        "sop_contexto": "SOP-SPC-10: Aunque la variabilidad sea baja, un proceso descentrado sistemáticamente reduce el índice de capacidad real (Cpk), incrementando el riesgo de generar defectos ante cualquier perturbación mínima del proceso.",
+        "ncr_reporte_planta": "Las muestras del diámetro exterior de los ejes están saliendo muy estables y con poca dispersión, pero al mirar el gráfico de control se ve que todos los puntos se acumulan en la banda alta, rozando el LCS constantemente desde hace dos horas.",
+        "capa_ground_truth": "Contención: Ajustar los parámetros de corte del torno CNC para recentrar el proceso. Causa Raíz: Error en la puesta a punto inicial de las coordenadas de la herramienta de corte en el CNC. Acción Correctiva: Modificar el procedimiento de *set-up* exigiendo que el Cp y Cpk preliminares calculados en las primeras 5 piezas estén perfectamente centrados respecto al valor nominal del plano."
+    },
+    {
+        "id_caso": "CAL_011",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Mecanizado de Precisión / Aeronáutica",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5 (Recursos de seguimiento y medición)",
+        "ruta_imagen": "data/imagenes/CAL_011.jpg",
+        "descripcion_imagen": "Pantalla digital de un micrómetro de exteriores mostrando una lectura fija de 12.545 mm al medir el cuello de un pasador metálico.",
+        "sop_contexto": "Ficha Técnica FT-AERO-44: El pasador de fijación debe presentar un diámetro exterior crítico de 12.500 mm con una tolerancia geométrica de ±0.015 mm (Rango válido: 12.485 mm a 12.515 mm). Instrumento obligatorio: Micrómetro calibrado.",
+        "ncr_reporte_planta": "Al verificar la cota mecanizada de los pasadores de titanio con el micrómetro digital, la pantalla da una lectura fija de 12.545 mm. El operario dice que la pieza entra bien en su alojamiento visual y que la pantalla debe estar fallando.",
+        "capa_ground_truth": "Contención: Segregar el lote de pasadores en la zona de retenidos. Retirar el micrómetro digital de la línea de forma inmediata. Causa Raíz: Producción de piezas con exceso de material exterior (12.545 mm frente al máximo de 12.515 mm de la FT-AERO-44) debido a desajuste de coordenadas CNC. Acción Correctiva: Corregir programa CNC del torno, recalibrar el micrómetro en laboratorio metrológico y prohibir validaciones visuales cualitativas."
+    },
+    {
+        "id_caso": "CAL_012",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Automoción / Rectificado de Motores",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5",
+        "ruta_imagen": "data/imagenes/CAL_012.jpg",
+        "descripcion_imagen": "Display digital nítido de un alexómetro electrónico industrial para interiores donde se muestra el valor de cota medido de '85.018 mm'.",
+        "sop_contexto": "Ficha FT-MOT-02: El diámetro interior del cilindro rectificado debe ser de 85.000 mm con una tolerancia estricta de +0.010 / -0.000 mm. Las mediciones deben registrarse en tres alturas diferentes del cilindro.",
+        "ncr_reporte_planta": "Al medir el rectificado del bloque motor con el alexómetro digital, la pantalla marca una cota de 85.018 mm en la parte superior del cilindro. El operario indica que la máquina herramienta ha completado el ciclo automático sin errores en el panel.",
+        "capa_ground_truth": "Contención: Parar la línea de rectificado y bloquear el bloque motor afectado junto con los tres anteriores. Causa Raíz: Sobremecanizado del diámetro interior (85.018 mm frente al límite de 85.010 mm) por desgaste del cabezal de rectificado abrasivo. Acción Correctiva: Sustituir las piedras abrasivas del cabezal de la máquina, ajustar el ciclo de compensación del CNC e implementar una medición intermedia por muestreo obligatorio."
+    },
+    {
+        "id_caso": "CAL_013",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Energías Renovables / Circuitos Hidráulicos",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5",
+        "ruta_imagen": "data/imagenes/CAL_013.jpg",
+        "descripcion_imagen": "Pantalla de cristal líquido con retroiluminación azul de un manómetro digital acoplado a un bloque de válvulas, indicando una lectura fija de '232.0 bar'.",
+        "sop_contexto": "SOP-HYD-07: La prueba de presión estática para el circuito del buje de la turbina eólica exige mantener una presión constante de 210 bar ± 5 bar durante un tiempo mínimo de 10 minutos sin caídas de presión.",
+        "ncr_reporte_planta": "Durante el ensayo del circuito hidráulico del aerogenerador, la pantalla del manómetro digital de pruebas ha registrado una lectura de 232 bar de forma continua. El técnico del banco de pruebas indica que el circuito aguanta bien y no gotea.",
+        "capa_ground_truth": "Contención: Aliviar la presión del circuito hidráulico de forma inmediata y detener el ensayo hidráulico. Causa Raíz: Sobrepresión en el sistema de pruebas (232 bar frente al límite superior de 215 bar de la norma SOP-HYD-07) debido a un fallo de regulación en la servoválvula del banco. Acción Correctiva: Calibrar la válvula de alivio del banco de ensayos y añadir un presostato de seguridad que corte la bomba si se exceden los 220 bar."
+    },
+    {
+        "id_caso": "CAL_014",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Inyección de Plásticos / Moldes",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5.2 (Trazabilidad de la medición)",
+        "ruta_imagen": "data/imagenes/CAL_014.jpg",
+        "descripcion_imagen": "Etiqueta autoadhesiva verde de calibración metrológica pegada en el chasis metálico de un medidor de alturas mecánico, donde la fecha de caducidad manuscrita corresponde al mes anterior.",
+        "sop_contexto": "SOP-MET-01: Queda prohibido el uso de cualquier equipo de inspección, medición o ensayo cuya etiqueta de calibración esté vencida. El operario debe verificar el estado de la etiqueta antes de iniciar la jornada.",
+        "ncr_reporte_planta": "Al auditar el laboratorio de calidad de la planta de inyección, se observa que el inspector está usando un medidor de alturas digital cuya etiqueta adhesiva de calibración indica como fecha de vencimiento el mes pasado.",
+        "capa_ground_truth": "Contención: Retirar el medidor de alturas de forma inmediata y etiquetarlo como 'Fuera de Servicio'. Identificar las piezas medidas con dicho equipo durante las últimas semanas. Causa Raíz: Omisión de la verificación diaria de los equipos por parte del personal y fallo en el sistema de alertas de metrología. Acción Correctiva: Recalibrar el equipo de forma prioritaria y migrar la gestión de calibraciones a un software automatizado con bloqueos por código QR."
+    },
+    {
+        "id_caso": "CAL_015",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Electrónica / Microcomponentes",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5",
+        "ruta_imagen": "data/imagenes/CAL_015.jpg",
+        "descripcion_imagen": "Monitor digital CRT de un proyector de perfiles óptico industrial mostrando la silueta en sombra negra de una pieza de cobre bajo líneas de medición vectoriales rojas de la pantalla.",
+        "sop_contexto": "Ficha FT-ELEC-12: El ángulo de doblado del terminal de conexión del relé debe ser estrictamente de 90° con una tolerancia angular máxima de ±1° (Rango admitido: 89° a 91°). Medición por proyección óptica.",
+        "ncr_reporte_planta": "Al verificar los terminales de cobre en el proyector de perfiles óptico, el software de medición en pantalla indica un ángulo real de doblado de 86.5° en la muestra del lote. Las piezas proceden de la matriz de estampación rápida.",
+        "capa_ground_truth": "Contención: Retener los terminales fabricados en el lote actual en un contenedor cerrado. Causa Raíz: Defecto de doblado geométrico por rebote elástico del material (springback) no compensado en el utillaje de doblado (86.5° frente al mínimo de 89°). Acción Correctiva: Modificar el ángulo del punzón de la matriz a 93° para compensar el rebote elástico del cobre y realizar mediciones angulares automáticas por visión artificial en la salida de prensa."
+    },
+    {
+        "id_caso": "CAL_016",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Siderurgia / Estructuras Metálicas",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.2 (Tipo y alcance del control de proveedores)",
+        "ruta_imagen": "data/imagenes/CAL_016.jpg",
+        "descripcion_imagen": "Escaneo nítido de un documento técnico de Certificado de Calidad de Material (MTR) donde una de las filas de la tabla de aleación química detalla textualmente 'S: 0.045%'.",
+        "sop_contexto": "Especificación ESP-MAT-01: Todo acero estructural suministrado bajo la especificación EN 10025 debe certificar un contenido máximo de Azufre (S) del 0.025% para mitigar el riesgo de fragilidad térmica durante la soldadura.",
+        "ncr_reporte_planta": "Ha llegado un camión del proveedor con vigas de acero. Al revisar el albarán y el certificado de calidad colada (MTR) en la oficina de recepción de materiales, veo en la tabla química que el Azufre viene marcado con un valor de 0.045%.",
+        "capa_ground_truth": "Contención: Denegar la descarga del camión y prohibir la entrada del lote de vigas. Emitir una reclamación formal (RMA) al proveedor externo. Causa Raíz: Envío por parte del proveedor de material fuera de especificación (0.045% frente al límite de 0.025% de la ESP-MAT-01). Acción Correctiva: Configurar el ERP para bloquear la entrada de mercancías si el operario no introduce los valores del MTR y auditar al proveedor."
+    },
+    {
+        "id_caso": "CAL_017",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Logística / Distribución Industrial",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.2 (Identificación y trazabilidad)",
+        "ruta_imagen": "data/imagenes/CAL_017.jpg",
+        "descripcion_imagen": "Etiqueta de envío industrial GS1-128 pegada sobre cartón corrugado donde las barras negras verticales del código bidimensional presentan un rasguño blanco que corta el patrón.",
+        "sop_contexto": "SOP-REC-02: Todo material que entre a fábrica debe poseer una etiqueta de identificación legible por escáner láser. Las etiquetas rotas, borrosas o incompletas son motivo de rechazo en el muelle de descarga.",
+        "ncr_reporte_planta": "En el muelle de recepción de materiales, el lector de código de barras de la planta no consigue leer las etiquetas de los palets de tornillería que acaba de entregar el proveedor debido a que la impresión está dañada y borrosa.",
+        "capa_ground_truth": "Contención: Paralizar la descarga de los palets y retenerlos en la zona de tránsito del muelle sin dar entrada en el sistema informático. Causa Raíz: Defecto de impresión en la transferencia térmica de la impresora de etiquetas del proveedor o fricción durante el transporte. Acción Correctiva: Exigir al proveedor el reetiquetado del lote e implementar una penalización comercial por incidencias de trazabilidad logística."
+    },
+    {
+        "id_caso": "CAL_018",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Forja / Componentes de Transmisión",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.2",
+        "ruta_imagen": "data/imagenes/CAL_018.jpg",
+        "descripcion_imagen": "Informe de ensayo metalúrgico impreso en papel térmico donde una línea de datos de salida muestra de forma explícita el valor de 'Dureza Brinell: 145 HB'.",
+        "sop_contexto": "Especificación ESP-MEC-11: Los preformados de acero forjado para engranajes deben certificar tras el tratamiento térmico de recocido una dureza Brinell comprendida estrictamente entre 170 HB y 210 HB.",
+        "ncr_reporte_planta": "Revisando la documentación técnica entregada junto con el lote de preformados para engranajes, constato que el informe de dureza del proveedor indica un valor medio de 145 HB en los ensayos Brinell realizados en su laboratorio.",
+        "capa_ground_truth": "Contención: Segregar el lote completo de engranajes forjados colocándolos bajo llave en la jaula de material rechazado de recepción. Causa Raíz: Tratamiento térmico de recocido incorrecto en las instalaciones del proveedor, dejando el acero demasiado blando (145 HB frente al mínimo contractual de 170 HB). Acción Correctiva: Devolver el lote para tratamiento de normalizado, y exigir al proveedor los gráficos de registro de temperatura de sus hornos para futuros envíos."
+    },
+    {
+        "id_caso": "CAL_019",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Bienes de Consumo / Importación de Motores",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.3 (Información para los proveedores externos)",
+        "ruta_imagen": "data/imagenes/CAL_019.jpg",
+        "descripcion_imagen": "Formulario impreso de Declaración de Conformidad técnica CE de maquinaria industrial donde las líneas inferiores dedicadas a la firma, el sello oficial y la fecha de validez se encuentran vacías.",
+        "sop_contexto": "SOP-LEG-01: Ningún componente eléctrico exterior puede ser admitido en las instalaciones si la Declaración de Conformidad CE obligatoria no está debidamente cumplimentada, fechada, firmada por el representante legal del fabricante y redactada en español.",
+        "ncr_reporte_planta": "Al revisar la documentación legal obligatoria en la recepción de un contenedor de servomotores importados, se observa que el documento de Declaración CE está incompleto. Faltan las firmas del ingeniero responsable del fabricante y la fecha de emisión del documento.",
+        "capa_ground_truth": "Contención: Inmovilizar el contenedor de servomotores en la zona aduanera de la fábrica y denegar su uso en la línea de montaje. Causa Raíz: Negligencia administrativa del proveedor extranjero al adjuntar documentación legal en blanco. Acción Correctiva: Exigir el envío inmediato del documento firmado digitalmente en formato PDF controlado y condicionar los futuros pagos a la validación documental documental previa al embarque."
+    },
+    {
+        "id_caso": "CAL_020",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Tratamientos Superficiales / Recubrimientos",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.2",
+        "ruta_imagen": "data/imagenes/CAL_020.jpg",
+        "descripcion_imagen": "Tabla impresa de informe de control metrológico de espesor de pintura micrométrica donde las últimas 5 columnas de celdas numéricas carecen de datos o anotaciones.",
+        "sop_contexto": "SOP-REC-09: Los proveedores de tratamientos superficiales deben aportar un reporte dimensional completo que registre de forma obligatoria el espesor de capa de un mínimo de 10 piezas por lote, indicando el instrumento utilizado.",
+        "ncr_reporte_planta": "El proveedor de zincado ha entregado un lote de soportes roscados. Al revisar su informe de calidad en la oficina de recepción de materiales, veo que la tabla de control dimensional está a medias; solo han rellenado los datos de 4 muestras de las 10 obligatorias.",
+        "capa_ground_truth": "Contención: Retener los soportes roscados en el muelle de entrada impidiendo su distribución a las líneas. Causa Raíz: Omisión del protocolo de muestreo de salida por parte del departamento de control de calidad del proveedor técnico al enviar una plantilla en blanco. Acción Correctiva: Emitir una No Conformidad por documentación incompleta, obligar al proveedor a enviar un técnico para medir las piezas restantes en nuestro muelle de descarga e incluir la incidencia en su evaluación anual de proveedores."
+    },
+    {
+        "id_caso": "CAL_001_VAR1",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Inyección de Plásticos / Automoción",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.1 (Control de la producción)",
+        "ruta_imagen": "data/imagenes/CAL_001.jpg",
+        "descripcion_imagen": "Banco de trabajo de taller desordenado donde conviven cajas de producto terminado conformes junto a bolsas con purgas de plástico del arranque sin identificar ni etiquetar.",
+        "sop_contexto": "Procedimiento SOP-PLAS-09: Todo material considerado descarte o purga de arranque debe ser inmediatamente depositado en el contenedor rojo rotulado como 'No Conforme'. Queda prohibido almacenar material en el perímetro de la inyectora.",
+        "ncr_reporte_planta": "Turno tarde, máquina 4: bolsas de purga tiradas junto a palets terminados. Operarios dicen que es para el próximo turno. No etiquetadas.",
+        "capa_ground_truth": {
+            "contencion": "Precintar las bolsas de purga en el suelo como no conformes y separar palets cercanos.",
+            "causa_raiz": "No se sigue el 5S y falta disciplina con el SOP-PLAS-09.",
+            "accion_correctiva": "Poner un rack solo para contenedores rojos y pedir firmar un checklist de orden en cada cambio de turno."
+        }
+    },
+    {
+        "id_caso": "CAL_001_VAR2",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Inyección de Plásticos / Automoción",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.1 (Control de la producción)",
+        "ruta_imagen": "data/imagenes/CAL_001.jpg",
+        "descripcion_imagen": "Banco de trabajo de taller desordenado donde conviven cajas de producto terminado conformes junto a bolsas con purgas de plástico del arranque sin identificar ni etiquetar.",
+        "sop_contexto": "Procedimiento SOP-PLAS-09: Todo material considerado descarte o purga de arranque debe ser inmediatamente depositado en el contenedor rojo rotulado como 'No Conforme'. Queda prohibido almacenar material en el perímetro de la inyectora.",
+        "ncr_reporte_planta": "Durante la inspección del turno vespertino en la inyectora 4, se detectó acumulación de plástico de purga sin etiquetar al lado de palets de producto finalizado.",
+        "capa_ground_truth": {
+            "contencion": "Clasificar y marcar las bolsas de purga en el suelo como material defectuoso. Palets adyacentes deben ser retenidos.",
+            "causa_raiz": "Incumplimiento del sistema 5S y deficiencia en el seguimiento del SOP-PLAS-09.",
+            "accion_correctiva": "Implementar un soporte dedicado para los contenedores identificados como 'No Conforme' y establecer un control de orden firmado en cada relevo."
+        }
+    },
+    {
+        "id_caso": "CAL_001_VAR3",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Inyección de Plásticos / Automoción",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.1 (Control de la producción)",
+        "ruta_imagen": "data/imagenes/CAL_001.jpg",
+        "descripcion_imagen": "Banco de trabajo de taller desordenado donde conviven cajas de producto terminado conformes junto a bolsas con purgas de plástico del arranque sin identificar ni etiquetar.",
+        "sop_contexto": "Procedimiento SOP-PLAS-09: Todo material considerado descarte o purga de arranque debe ser inmediatamente depositado en el contenedor rojo rotulado como 'No Conforme'. Queda prohibido almacenar material en el perímetro de la inyectora.",
+        "ncr_reporte_planta": "Auditoría del turno tarde en la máquina 4 revela desorden: bolsas de purga en el suelo, sin etiquetar junto a palets de productos acabados, según operarios, para el siguiente turno.",
+        "capa_ground_truth": {
+            "contencion": "Inmediatamente etiquetar y asegurar las bolsas en el suelo como no conforme, y aislar los palets próximos.",
+            "causa_raiz": "Fallo en el cumplimiento del 5S y falta de adherencia al procedimiento SOP-PLAS-09.",
+            "accion_correctiva": "Instalar un sistema de almacenamiento para contenedores rojos y requerir la firma de una lista de verificación de orden en cada transición de turno."
+        }
+    },
+    {
+        "id_caso": "CAL_001_VAR4",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Inyección de Plásticos / Automoción",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.1 (Control de la producción)",
+        "ruta_imagen": "data/imagenes/CAL_001.jpg",
+        "descripcion_imagen": "Banco de trabajo de taller desordenado donde conviven cajas de producto terminado conformes junto a bolsas con purgas de plástico del arranque sin identificar ni etiquetar.",
+        "sop_contexto": "Procedimiento SOP-PLAS-09: Todo material considerado descarte o purga de arranque debe ser inmediatamente depositado en el contenedor rojo rotulado como 'No Conforme'. Queda prohibido almacenar material en el perímetro de la inyectora.",
+        "ncr_reporte_planta": "Durante el turno de tarde, se observó en la inyectora 4 bolsas de purga acumuladas junto a los palets terminados, sin etiquetas. Operarios mencionaron que son para el próximo turno.",
+        "capa_ground_truth": {
+            "contencion": "Identificar y etiquetar de inmediato las bolsas en el suelo como no conformes, y separar los palets adyacentes.",
+            "causa_raiz": "No se está cumpliendo con el estándar 5S, ni con el SOP-PLAS-09.",
+            "accion_correctiva": "Colocar un estante exclusivo para los contenedores rojos y exigir un checklist de orden firmado en cada cambio de turno."
+        }
+    },
+    {
+        "id_caso": "CAL_002_VAR1",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Bienes de Equipo / Mecanizado",
+        "norma_especifica": "ISO 45001 / ISO 9001:2015 - Cláusula 8.5.1.a",
+        "ruta_imagen": "data/imagenes/CAL_002.jpg",
+        "descripcion_imagen": "Fotografía en primer plano de un microinterruptor mecánico de seguridad de la puerta de un centro CNC puenteado físicamente mediante una brida plástica de color rojo.",
+        "sop_contexto": "SOP-SEG-01: Queda terminantemente prohibido manipular, puentear o anular las barreras y sistemas de enclavamiento de seguridad de la maquinaria. Cualquier anomalía debe reportarse a mantenimiento deteniendo el equipo.",
+        "ncr_reporte_planta": "CNC 2 currando con puerta abierta, microinterruptor bloqueado con brida. ¡Ojo!",
+        "capa_ground_truth": {
+            "contencion": "Parar CNC y quitar la brida.",
+            "causa_raiz": "Puenteo de seguridad para cambiar piezas más rápido.",
+            "accion_correctiva": "Poner sensor RFID y charla obligatoria sobre normas de seguridad."
+        }
+    },
+    {
+        "id_caso": "CAL_002_VAR2",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Bienes de Equipo / Mecanizado",
+        "norma_especifica": "ISO 45001 / ISO 9001:2015 - Cláusula 8.5.1.a",
+        "ruta_imagen": "data/imagenes/CAL_002.jpg",
+        "descripcion_imagen": "Fotografía en primer plano de un microinterruptor mecánico de seguridad de la puerta de un centro CNC puenteado físicamente mediante una brida plástica de color rojo.",
+        "sop_contexto": "SOP-SEG-01: Queda terminantemente prohibido manipular, puentear o anular las barreras y sistemas de enclavamiento de seguridad de la maquinaria. Cualquier anomalía debe reportarse a mantenimiento deteniendo el equipo.",
+        "ncr_reporte_planta": "Se observó que el CNC 2 operaba con la puerta abierta, el microinterruptor de seguridad fue obstaculizado usando una brida plástica.",
+        "capa_ground_truth": {
+            "contencion": "Cese inmediato de operaciones del CNC y retiro de la obstrucción.",
+            "causa_raiz": "Intervención intencionada del sistema de seguridad para reducir tiempos en el cambio de piezas.",
+            "accion_correctiva": "Reemplazo del microinterruptor por un sensor RFID invulnerable a puentes y capacitación obligatoria sobre cumplimiento normativo."
+        }
+    },
+    {
+        "id_caso": "CAL_002_VAR3",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Bienes de Equipo / Mecanizado",
+        "norma_especifica": "ISO 45001 / ISO 9001:2015 - Cláusula 8.5.1.a",
+        "ruta_imagen": "data/imagenes/CAL_002.jpg",
+        "descripcion_imagen": "Fotografía en primer plano de un microinterruptor mecánico de seguridad de la puerta de un centro CNC puenteado físicamente mediante una brida plástica de color rojo.",
+        "sop_contexto": "SOP-SEG-01: Queda terminantemente prohibido manipular, puentear o anular las barreras y sistemas de enclavamiento de seguridad de la maquinaria. Cualquier anomalía debe reportarse a mantenimiento deteniendo el equipo.",
+        "ncr_reporte_planta": "Inspección detectó CNC 2 en marcha con puerta abierta, microinterruptor desactivado con brida.",
+        "capa_ground_truth": {
+            "contencion": "Detener CNC y eliminar brida bloqueante.",
+            "causa_raiz": "Desactivación deliberada del enclavamiento de seguridad para agilizar proceso.",
+            "accion_correctiva": "Instalar sensor RFID seguro y realizar sesión obligatoria sobre riesgos y normativas."
+        }
+    },
+    {
+        "id_caso": "CAL_002_VAR4",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Bienes de Equipo / Mecanizado",
+        "norma_especifica": "ISO 45001 / ISO 9001:2015 - Cláusula 8.5.1.a",
+        "ruta_imagen": "data/imagenes/CAL_002.jpg",
+        "descripcion_imagen": "Fotografía en primer plano de un microinterruptor mecánico de seguridad de la puerta de un centro CNC puenteado físicamente mediante una brida plástica de color rojo.",
+        "sop_contexto": "SOP-SEG-01: Queda terminantemente prohibido manipular, puentear o anular las barreras y sistemas de enclavamiento de seguridad de la maquinaria. Cualquier anomalía debe reportarse a mantenimiento deteniendo el equipo.",
+        "ncr_reporte_planta": "Durante el turno se halló el CNC 2 funcionando con la puerta abierta, el microinterruptor estaba fijado con brida.",
+        "capa_ground_truth": {
+            "contencion": "Detener inmediatamente el CNC y retirar la brida.",
+            "causa_raiz": "Manipulación del sistema de seguridad con el fin de acelerar los cambios de piezas.",
+            "accion_correctiva": "Cambiar el microinterruptor por un sensor RFID no puenteable y organizar una sesión obligatoria sobre riesgos normativos."
+        }
+    },
+    {
+        "id_caso": "CAL_003_VAR1",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Químico / Fabricación de Pinturas",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.2 (Identificación y trazabilidad)",
+        "ruta_imagen": "data/imagenes/CAL_003.jpg",
+        "descripcion_imagen": "Bidón industrial de aditivo químico en un almacén que muestra una etiqueta adhesiva blanca donde la fecha de vencimiento impresa indica un retraso de tres meses respecto a la fecha actual.",
+        "sop_contexto": "SOP-ALM-14: Gestión FIFO de almacén. Ninguna materia prima con fecha de caducidad vencida puede permanecer en las líneas de dosificación. El aditivo caducado debe trasladarse al área de residuos peligrosos.",
+        "ncr_reporte_planta": "Bidón de acelerante caducado hace 3 meses en mezclas. Está conectado y se usó en pinturas hoy.",
+        "capa_ground_truth": {
+            "contencion": "Parar mezclas y guardar pinturas hechas hoy. Sacar el acelerante viejo.",
+            "causa_raiz": "No se revisó el FIFO y se pasó por alto la fecha en planta.",
+            "accion_correctiva": "Poner un bloqueo en el sistema para que no se pueda escanear material vencido."
+        }
+    },
+    {
+        "id_caso": "CAL_003_VAR2",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Químico / Fabricación de Pinturas",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.2 (Identificación y trazabilidad)",
+        "ruta_imagen": "data/imagenes/CAL_003.jpg",
+        "descripcion_imagen": "Bidón industrial de aditivo químico en un almacén que muestra una etiqueta adhesiva blanca donde la fecha de vencimiento impresa indica un retraso de tres meses respecto a la fecha actual.",
+        "sop_contexto": "SOP-ALM-14: Gestión FIFO de almacén. Ninguna materia prima con fecha de caducidad vencida puede permanecer en las líneas de dosificación. El aditivo caducado debe trasladarse al área de residuos peligrosos.",
+        "ncr_reporte_planta": "Se identificó un contenedor de aditivo acelerante expirado en el área de mezclas, conectado a la bomba dosificadora. Este aditivo ha sido utilizado en los lotes de pintura producidos esta mañana.",
+        "capa_ground_truth": {
+            "contencion": "Suspender la operación de la línea de mezclas y retener los lotes de pintura del turno. Extraer el aditivo caducado.",
+            "causa_raiz": "Deficiencia en el control FIFO rotativo y omisión de la inspección visual.",
+            "accion_correctiva": "Desarrollar un sistema de bloqueo en el ERP que prohíba el escaneo de material vencido para las órdenes de producción."
+        }
+    },
+    {
+        "id_caso": "CAL_003_VAR3",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Químico / Fabricación de Pinturas",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.2 (Identificación y trazabilidad)",
+        "ruta_imagen": "data/imagenes/CAL_003.jpg",
+        "descripcion_imagen": "Bidón industrial de aditivo químico en un almacén que muestra una etiqueta adhesiva blanca donde la fecha de vencimiento impresa indica un retraso de tres meses respecto a la fecha actual.",
+        "sop_contexto": "SOP-ALM-14: Gestión FIFO de almacén. Ninguna materia prima con fecha de caducidad vencida puede permanecer en las líneas de dosificación. El aditivo caducado debe trasladarse al área de residuos peligrosos.",
+        "ncr_reporte_planta": "Detección de aditivo vencido conectado a sistema de dosificación, usado en producción reciente.",
+        "capa_ground_truth": {
+            "contencion": "Detener producción y aislar lotes afectados. Retirar aditivo vencido.",
+            "causa_raiz": "Error en gestión FIFO e inspección visual insuficiente.",
+            "accion_correctiva": "Implementar software ERP para bloquear escaneo de materias primas vencidas."
+        }
+    },
+    {
+        "id_caso": "CAL_003_VAR4",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Químico / Fabricación de Pinturas",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.2 (Identificación y trazabilidad)",
+        "ruta_imagen": "data/imagenes/CAL_003.jpg",
+        "descripcion_imagen": "Bidón industrial de aditivo químico en un almacén que muestra una etiqueta adhesiva blanca donde la fecha de vencimiento impresa indica un retraso de tres meses respecto a la fecha actual.",
+        "sop_contexto": "SOP-ALM-14: Gestión FIFO de almacén. Ninguna materia prima con fecha de caducidad vencida puede permanecer en las líneas de dosificación. El aditivo caducado debe trasladarse al área de residuos peligrosos.",
+        "ncr_reporte_planta": "Aditivo acelerante con 90 días de caducidad hallado conectado en mezclas. Integrado en pintura del turno.",
+        "capa_ground_truth": {
+            "contencion": "Bloquear línea de mezclas y retener producción del turno. Retirar aditivo vencido.",
+            "causa_raiz": "Fallo en el seguimiento del FIFO y omisión de control visual.",
+            "accion_correctiva": "Configurar bloqueo en ERP para evitar uso de materiales vencidos."
+        }
+    },
+    {
+        "id_caso": "CAL_004_VAR1",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Ensamblaje de Componentes Eléctricos",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.5.3 (Control de la información documentada)",
+        "ruta_imagen": "data/imagenes/CAL_004.jpg",
+        "descripcion_imagen": "Carpeta física de instrucciones técnicas en una estación de montaje con anotaciones a bolígrafo negro y tachones sobre los esquemas, modificando el número de revisión original de forma manuscrita.",
+        "sop_contexto": "SOP-DOC-02: Queda prohibido realizar anotaciones a mano en las instrucciones de trabajo de las estaciones. Solo se admitirán documentos impresos controlados que muestren la firma del responsable de ingeniería y el número de revisión vigente.",
+        "ncr_reporte_planta": "En el área de montaje, los colegas están usando instrucciones con rayones y notas a mano sobre el cableado. Dicen que los cambios los pasaron de palabra desde ingeniería.",
+        "capa_ground_truth": {
+            "contencion": "Sacar ya mismo los papeles escritos a mano y poner la versión actual oficial.",
+            "causa_raiz": "Cambios técnicos se pasan de boca en boca y no hay control de documentos en la planta.",
+            "accion_correctiva": "Poner pantallas en cada puesto con instrucciones directas del sistema central, quitando los papeles."
+        }
+    },
+    {
+        "id_caso": "CAL_004_VAR2",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Ensamblaje de Componentes Eléctricos",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.5.3 (Control de la información documentada)",
+        "ruta_imagen": "data/imagenes/CAL_004.jpg",
+        "descripcion_imagen": "Carpeta física de instrucciones técnicas en una estación de montaje con anotaciones a bolígrafo negro y tachones sobre los esquemas, modificando el número de revisión original de forma manuscrita.",
+        "sop_contexto": "SOP-DOC-02: Queda prohibido realizar anotaciones a mano en las instrucciones de trabajo de las estaciones. Solo se admitirán documentos impresos controlados que muestren la firma del responsable de ingeniería y el número de revisión vigente.",
+        "ncr_reporte_planta": "Se detecta que en la estación de ensamblaje del panel eléctrico, el personal utiliza documentos con anotaciones y tachaduras manuales, alterando los esquemas de cableado. Según los operarios, ingeniería transmitió las modificaciones verbalmente.",
+        "capa_ground_truth": {
+            "contencion": "Proceder con el retiro inmediato de los documentos alterados manualmente y reemplazarlos con la versión oficial vigente.",
+            "causa_raiz": "Transmisión informal de cambios técnicos y ausencia de control documental efectivo en planta.",
+            "accion_correctiva": "Implementar la digitalización de las instrucciones mediante interfaces visuales en cada estación, conectadas directamente al sistema de gestión documental centralizado, eliminando la documentación en papel."
+        }
+    },
+    {
+        "id_caso": "CAL_004_VAR3",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Ensamblaje de Componentes Eléctricos",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.5.3 (Control de la información documentada)",
+        "ruta_imagen": "data/imagenes/CAL_004.jpg",
+        "descripcion_imagen": "Carpeta física de instrucciones técnicas en una estación de montaje con anotaciones a bolígrafo negro y tachones sobre los esquemas, modificando el número de revisión original de forma manuscrita.",
+        "sop_contexto": "SOP-DOC-02: Queda prohibido realizar anotaciones a mano en las instrucciones de trabajo de las estaciones. Solo se admitirán documentos impresos controlados que muestren la firma del responsable de ingeniería y el número de revisión vigente.",
+        "ncr_reporte_planta": "En la línea de montaje, se utilizan instrucciones físicas con correcciones manuales. Se reporta que los cambios fueron comunicados oralmente por ingeniería.",
+        "capa_ground_truth": {
+            "contencion": "Eliminar de inmediato las instrucciones manuscritas y reemplazarlas con la versión controlada.",
+            "causa_raiz": "Difusión no oficial de modificaciones técnicas y falta de un sistema de control de documentos.",
+            "accion_correctiva": "Transformar las instrucciones a formato digital accesible desde cada estación, enlazado al gestor documental, eliminando el uso de papel."
+        }
+    },
+    {
+        "id_caso": "CAL_004_VAR4",
+        "actividad_calidad": "Aseguramiento y Cumplimiento Normativo",
+        "sector": "Ensamblaje de Componentes Eléctricos",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.5.3 (Control de la información documentada)",
+        "ruta_imagen": "data/imagenes/CAL_004.jpg",
+        "descripcion_imagen": "Carpeta física de instrucciones técnicas en una estación de montaje con anotaciones a bolígrafo negro y tachones sobre los esquemas, modificando el número de revisión original de forma manuscrita.",
+        "sop_contexto": "SOP-DOC-02: Queda prohibido realizar anotaciones a mano en las instrucciones de trabajo de las estaciones. Solo se admitirán documentos impresos controlados que muestren la firma del responsable de ingeniería y el número de revisión vigente.",
+        "ncr_reporte_planta": "Durante el turno, observamos que en montaje se usan instrucciones con tachones y notas, siguiendo indicaciones verbales de ingeniería para el cableado.",
+        "capa_ground_truth": {
+            "contencion": "Retirar inmediatamente las instrucciones alteradas manualmente y sustituirlas por la versión oficial.",
+            "causa_raiz": "Comunicación informal de actualizaciones técnicas y deficiente control documental en el proceso.",
+            "accion_correctiva": "Adoptar pantallas digitales en cada estación de trabajo conectadas al sistema documental central, eliminando la necesidad de papel."
+        }
+    },
+    {
+        "id_caso": "CAL_006_VAR1",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Metalmecánica / Estampación en Frío",
+        "norma_especifica": "IATF 16949 - Cláusula 9.1.1.1 (Seguimiento de procesos de fabricación)",
+        "ruta_imagen": "data/imagenes/CAL_006.jpg",
+        "descripcion_imagen": "Pantalla digital de software industrial que muestra un gráfico de control de medias X-bar donde los últimos 7 puntos consecutivos muestran una tendencia lineal ascendente constante hacia el Límite de Control Superior.",
+        "sop_contexto": "Manual de SPC (Sección 3): Un proceso está fuera de control estadístico si presenta una racha de 7 o más puntos consecutivos en tendencia ascendente o descendente continua, debiendo detener la producción de forma preventiva.",
+        "ncr_reporte_planta": "SPC de la prensa muestra subida en espesor. ERP no avisa, sigue en tolerancia, pero la línea sigue. Ojo con eso.",
+        "capa_ground_truth": {
+            "contencion": "Parar prensa ya. Bloquear y medir piezas de las últimas 2 horas.",
+            "causa_raiz": "Matriz desgastada o calor desviado. Regla SPC rota.",
+            "accion_correctiva": "Ajustar herramientas. Poner alarma automática que frene antes del fallo."
+        }
+    },
+    {
+        "id_caso": "CAL_006_VAR2",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Metalmecánica / Estampación en Frío",
+        "norma_especifica": "IATF 16949 - Cláusula 9.1.1.1 (Seguimiento de procesos de fabricación)",
+        "ruta_imagen": "data/imagenes/CAL_006.jpg",
+        "descripcion_imagen": "Pantalla digital de software industrial que muestra un gráfico de control de medias X-bar donde los últimos 7 puntos consecutivos muestran una tendencia lineal ascendente constante hacia el Límite de Control Superior.",
+        "sop_contexto": "Manual de SPC (Sección 3): Un proceso está fuera de control estadístico si presenta una racha de 7 o más puntos consecutivos en tendencia ascendente o descendente continua, debiendo detener la producción de forma preventiva.",
+        "ncr_reporte_planta": "El sistema SPC de la prensa indica una secuencia ascendente en el grosor de la chapa. No se ha activado alerta en el ERP, ya que la última pieza se encuentra dentro del rango permitido, por lo que la operación continúa.",
+        "capa_ground_truth": {
+            "contencion": "Implementar parada preventiva inmediata de la prensa. Realizar bloqueo de piezas producidas en las últimas dos horas para verificación metrológica manual.",
+            "causa_raiz": "Desgaste progresivo o desviación térmica en la matriz de estampación, incumpliendo las normas de SPC.",
+            "accion_correctiva": "Recalibrar el utillaje e integrar una alarma automatizada en el software basada en las Reglas de Western Electric para prevenir la violación de las tolerancias."
+        }
+    },
+    {
+        "id_caso": "CAL_006_VAR3",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Metalmecánica / Estampación en Frío",
+        "norma_especifica": "IATF 16949 - Cláusula 9.1.1.1 (Seguimiento de procesos de fabricación)",
+        "ruta_imagen": "data/imagenes/CAL_006.jpg",
+        "descripcion_imagen": "Pantalla digital de software industrial que muestra un gráfico de control de medias X-bar donde los últimos 7 puntos consecutivos muestran una tendencia lineal ascendente constante hacia el Límite de Control Superior.",
+        "sop_contexto": "Manual de SPC (Sección 3): Un proceso está fuera de control estadístico si presenta una racha de 7 o más puntos consecutivos en tendencia ascendente o descendente continua, debiendo detener la producción de forma preventiva.",
+        "ncr_reporte_planta": "Análisis SPC revela espesor de chapa en aumento. ERP no alerta ya que tolerancia aún se respeta, pero producción sigue.",
+        "capa_ground_truth": {
+            "contencion": "Detener inmediatamente producción de prensa. Inspeccionar manualmente últimas dos horas de producción.",
+            "causa_raiz": "Matriz de estampación experimenta desgaste o deriva térmica, infringiendo directrices SPC.",
+            "accion_correctiva": "Realizar calibración del utillaje. Configurar alarma automática en software para bloquear equipo antes de exceder tolerancia."
+        }
+    },
+    {
+        "id_caso": "CAL_006_VAR4",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Metalmecánica / Estampación en Frío",
+        "norma_especifica": "IATF 16949 - Cláusula 9.1.1.1 (Seguimiento de procesos de fabricación)",
+        "ruta_imagen": "data/imagenes/CAL_006.jpg",
+        "descripcion_imagen": "Pantalla digital de software industrial que muestra un gráfico de control de medias X-bar donde los últimos 7 puntos consecutivos muestran una tendencia lineal ascendente constante hacia el Límite de Control Superior.",
+        "sop_contexto": "Manual de SPC (Sección 3): Un proceso está fuera de control estadístico si presenta una racha de 7 o más puntos consecutivos en tendencia ascendente o descendente continua, debiendo detener la producción de forma preventiva.",
+        "ncr_reporte_planta": "Durante el turno, se observó en el SPC de la prensa que el espesor de la chapa está en una tendencia ascendente. No se ha activado la alarma en el ERP, ya que el espesor todavía está dentro del límite permitido, por lo que el proceso sigue funcionando.",
+        "capa_ground_truth": {
+            "contencion": "Proceder con la detención inmediata de la prensa. Bloquear las piezas producidas en las últimas dos horas para medición manual.",
+            "causa_raiz": "Desgaste o deriva térmica en la matriz de estampación, violación confirmada de las reglas SPC.",
+            "accion_correctiva": "Calibrar la matriz y configurar una alarma automática en el software para detener el equipo antes de que se infrinjan las tolerancias."
+        }
+    },
+    {
+        "id_caso": "CAL_007_VAR1",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Alimentario / Línea de Envasado",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 9.1.1 (Generalidades de evaluación)",
+        "ruta_imagen": "data/imagenes/CAL_007.jpg",
+        "descripcion_imagen": "Monitor de planta mostrando un gráfico estadístico de control de peso neto donde un único punto se posiciona claramente por encima de la línea roja discontinua del Límite de Control Superior (LCS).",
+        "sop_contexto": "SOP-SPC-02: Cualquier punto individual que exceda los límites de control de 3 sigma (LCS/LCI) representa una causa especial de variación. Se debe identificar la causa, segregar el sub-lote afectado y recalibrar la dosificadora.",
+        "ncr_reporte_planta": "Gráfico de control muestra punto loco en muestra 15, pasó 3 sigma. Válvula se quedó abierta un pelín, operario dice que ya está bien.",
+        "capa_ground_truth": {
+            "contencion": "Aislar los botes del lote de la muestra 15, pesarlos y sacar los que estén fuera.",
+            "causa_raiz": "Obstrucción momentánea de la válvula por mugre.",
+            "accion_correctiva": "Limpiar y mantener el cabezal de llenado, poner un sistema de rechazo automático en la cinta."
+        }
+    },
+    {
+        "id_caso": "CAL_007_VAR2",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Alimentario / Línea de Envasado",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 9.1.1 (Generalidades de evaluación)",
+        "ruta_imagen": "data/imagenes/CAL_007.jpg",
+        "descripcion_imagen": "Monitor de planta mostrando un gráfico estadístico de control de peso neto donde un único punto se posiciona claramente por encima de la línea roja discontinua del Límite de Control Superior (LCS).",
+        "sop_contexto": "SOP-SPC-02: Cualquier punto individual que exceda los límites de control de 3 sigma (LCS/LCI) representa una causa especial de variación. Se debe identificar la causa, segregar el sub-lote afectado y recalibrar la dosificadora.",
+        "ncr_reporte_planta": "En el gráfico de control de la estación de llenado, se detecta una anomalía en el punto correspondiente a la muestra 15, superando el límite de control superior. El operador reportó un fallo en la válvula de llenado que permaneció abierta temporalmente.",
+        "capa_ground_truth": {
+            "contencion": "Retener el sub-lote correspondiente a la muestra 15 para su verificación individual mediante pesaje y eliminación de productos no conformes.",
+            "causa_raiz": "Variación especial provocada por una obstrucción temporal en el obturador de la válvula neumática.",
+            "accion_correctiva": "Realizar limpieza y mantenimiento del sistema de válvulas e implementar un mecanismo de rechazo automático basado en pesaje dinámico."
+        }
+    },
+    {
+        "id_caso": "CAL_007_VAR3",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Alimentario / Línea de Envasado",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 9.1.1 (Generalidades de evaluación)",
+        "ruta_imagen": "data/imagenes/CAL_007.jpg",
+        "descripcion_imagen": "Monitor de planta mostrando un gráfico estadístico de control de peso neto donde un único punto se posiciona claramente por encima de la línea roja discontinua del Límite de Control Superior (LCS).",
+        "sop_contexto": "SOP-SPC-02: Cualquier punto individual que exceda los límites de control de 3 sigma (LCS/LCI) representa una causa especial de variación. Se debe identificar la causa, segregar el sub-lote afectado y recalibrar la dosificadora.",
+        "ncr_reporte_planta": "Se identificó un valor anómalo en la muestra 15 del gráfico de control, excediendo los límites establecidos. El problema fue atribuido a la válvula de llenado bloqueada.",
+        "capa_ground_truth": {
+            "contencion": "Los productos del lote asociado a la muestra 15 deben ser separados y revisados individualmente mediante pesaje.",
+            "causa_raiz": "Obstrucción temporal del obturador de la válvula por acumulación de suciedad.",
+            "accion_correctiva": "Limpieza del cabezal de llenado y añadir un sistema de rechazo automático por pesaje en la línea de producción."
+        }
+    },
+    {
+        "id_caso": "CAL_007_VAR4",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Alimentario / Línea de Envasado",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 9.1.1 (Generalidades de evaluación)",
+        "ruta_imagen": "data/imagenes/CAL_007.jpg",
+        "descripcion_imagen": "Monitor de planta mostrando un gráfico estadístico de control de peso neto donde un único punto se posiciona claramente por encima de la línea roja discontinua del Límite de Control Superior (LCS).",
+        "sop_contexto": "SOP-SPC-02: Cualquier punto individual que exceda los límites de control de 3 sigma (LCS/LCI) representa una causa especial de variación. Se debe identificar la causa, segregar el sub-lote afectado y recalibrar la dosificadora.",
+        "ncr_reporte_planta": "Durante el turno, se observó un pico fuera de control en la muestra 15 del proceso de llenado, superando el LCS. El operador indicó que fue debido a un problema momentáneo en la válvula de llenado.",
+        "capa_ground_truth": {
+            "contencion": "Separar los botes del lote afectado en la muestra 15 para ser pesados individualmente y descartar los no conformes.",
+            "causa_raiz": "Interrupción transitoria en la válvula neumática por suciedad acumulada.",
+            "accion_correctiva": "Llevar a cabo la limpieza y mantenimiento de la válvula y establecer un sistema de rechazo por pesaje dinámico en la línea."
+        }
+    },
+    {
+        "id_caso": "CAL_008_VAR1",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Inyección de Aluminio / Fundición",
+        "norma_especifica": "IATF 16949 - Cláusula 9.1.1.1",
+        "ruta_imagen": "data/imagenes/CAL_008.jpg",
+        "descripcion_imagen": "Pantalla HMI de máquina inyectora mostrando un gráfico de control de peso que dibuja un patrón cíclico sinusoidal constante, oscilando de forma regular cerca de los límites superior e inferior.",
+        "sop_contexto": "SOP-SPC-05: Los patrones cíclicos periódicos en los gráficos de control indican variaciones sistemáticas ajenas a la aleatoriedad natural del proceso, generalmente asociadas a fluctuaciones térmicas o ambientales.",
+        "ncr_reporte_planta": "Gráfico X-bar muestra sube y baja cada media hora. No se pasa de los límites, pero sigue igual todo el turno.",
+        "capa_ground_truth": {
+            "contencion": "Seguir fabricando y mirar medidas clave a mano.",
+            "causa_raiz": "Cambio de temperatura en el aceite por ciclos malos en la torre.",
+            "accion_correctiva": "Cambiar válvula termostática en la torre para normalizar temperatura."
+        }
+    },
+    {
+        "id_caso": "CAL_008_VAR2",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Inyección de Aluminio / Fundición",
+        "norma_especifica": "IATF 16949 - Cláusula 9.1.1.1",
+        "ruta_imagen": "data/imagenes/CAL_008.jpg",
+        "descripcion_imagen": "Pantalla HMI de máquina inyectora mostrando un gráfico de control de peso que dibuja un patrón cíclico sinusoidal constante, oscilando de forma regular cerca de los límites superior e inferior.",
+        "sop_contexto": "SOP-SPC-05: Los patrones cíclicos periódicos en los gráficos de control indican variaciones sistemáticas ajenas a la aleatoriedad natural del proceso, generalmente asociadas a fluctuaciones térmicas o ambientales.",
+        "ncr_reporte_planta": "Análisis del gráfico X-bar del peso de piezas de aluminio revela un patrón cíclico recurrente cada 30 minutos. El proceso permanece dentro de los límites de control, pero la oscilación persiste consistentemente durante el turno.",
+        "capa_ground_truth": {
+            "contencion": "Continuar la producción mientras se monitorean manualmente las dimensiones críticas.",
+            "causa_raiz": "Variación cíclica en la temperatura del refrigerante debido a defectos en los ciclos de la torre de enfriamiento.",
+            "accion_correctiva": "Reemplazar el control termostático de la torre de enfriamiento para estabilizar la temperatura del proceso."
+        }
+    },
+    {
+        "id_caso": "CAL_008_VAR3",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Inyección de Aluminio / Fundición",
+        "norma_especifica": "IATF 16949 - Cláusula 9.1.1.1",
+        "ruta_imagen": "data/imagenes/CAL_008.jpg",
+        "descripcion_imagen": "Pantalla HMI de máquina inyectora mostrando un gráfico de control de peso que dibuja un patrón cíclico sinusoidal constante, oscilando de forma regular cerca de los límites superior e inferior.",
+        "sop_contexto": "SOP-SPC-05: Los patrones cíclicos periódicos en los gráficos de control indican variaciones sistemáticas ajenas a la aleatoriedad natural del proceso, generalmente asociadas a fluctuaciones térmicas o ambientales.",
+        "ncr_reporte_planta": "El gráfico X-bar presenta fluctuaciones regulares cada 30 minutos. No excede los límites, pero la variabilidad es sistemática.",
+        "capa_ground_truth": {
+            "contencion": "Mantener producción y verificar medidas críticas manualmente.",
+            "causa_raiz": "Oscilación en la temperatura del aceite por fallos en el ciclo de la torre.",
+            "accion_correctiva": "Sustitución de la válvula de control térmico de la torre para asegurar estabilidad."
+        }
+    },
+    {
+        "id_caso": "CAL_008_VAR4",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Inyección de Aluminio / Fundición",
+        "norma_especifica": "IATF 16949 - Cláusula 9.1.1.1",
+        "ruta_imagen": "data/imagenes/CAL_008.jpg",
+        "descripcion_imagen": "Pantalla HMI de máquina inyectora mostrando un gráfico de control de peso que dibuja un patrón cíclico sinusoidal constante, oscilando de forma regular cerca de los límites superior e inferior.",
+        "sop_contexto": "SOP-SPC-05: Los patrones cíclicos periódicos en los gráficos de control indican variaciones sistemáticas ajenas a la aleatoriedad natural del proceso, generalmente asociadas a fluctuaciones térmicas o ambientales.",
+        "ncr_reporte_planta": "Durante el turno, el gráfico X-bar del peso de las piezas mostró un patrón de oscilación cada 30 minutos. Aunque no se superan los límites de control, el comportamiento se mantiene estable en esta fluctuación.",
+        "capa_ground_truth": {
+            "contencion": "Continuar la producción con monitoreo manual de las medidas críticas.",
+            "causa_raiz": "Ciclo térmico del aceite alterado por problemas en la torre de enfriamiento.",
+            "accion_correctiva": "Cambiar la válvula termostática de la torre de refrigeración para estabilizar los ciclos."
+        }
+    },
+    {
+        "id_caso": "CAL_009_VAR1",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Químico / Extrusión de Polímeros",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.6 (Control de los cambios)",
+        "ruta_imagen": "data/imagenes/CAL_009.jpg",
+        "descripcion_imagen": "Captura de pantalla de un sistema de control estadístico de procesos donde la línea de puntos experimenta un salto brusco de nivel vertical hacia arriba, manteniéndose elevado de forma sostenida.",
+        "sop_contexto": "SOP-SPC-08: Un cambio repentino en el nivel medio del proceso indica la introducción de una nueva variable (cambio de lote de materia prima, ajuste de máquina o cambio de utillaje) que debe ser validada por calidad.",
+        "ncr_reporte_planta": "Observamos un salto en el diámetro del tubo después de meter un nuevo palet de granza. Aunque sigue en tolerancia, la media subió. Revisar.",
+        "capa_ground_truth": {
+            "contencion": "Guardar los tubos del lote afectado para pruebas de tracción y elasticidad.",
+            "causa_raiz": "El nuevo lote de granza tenía un índice de fluidez distinto que no se ajustó en la máquina.",
+            "accion_correctiva": "Decirle al proveedor que certifique el índice de fluidez antes y ajustar la máquina automáticamente según el lote."
+        }
+    },
+    {
+        "id_caso": "CAL_009_VAR2",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Químico / Extrusión de Polímeros",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.6 (Control de los cambios)",
+        "ruta_imagen": "data/imagenes/CAL_009.jpg",
+        "descripcion_imagen": "Captura de pantalla de un sistema de control estadístico de procesos donde la línea de puntos experimenta un salto brusco de nivel vertical hacia arriba, manteniéndose elevado de forma sostenida.",
+        "sop_contexto": "SOP-SPC-08: Un cambio repentino en el nivel medio del proceso indica la introducción de una nueva variable (cambio de lote de materia prima, ajuste de máquina o cambio de utillaje) que debe ser validada por calidad.",
+        "ncr_reporte_planta": "El análisis estadístico del diámetro del tubo extruido reveló un cambio brusco en la media a media mañana. A pesar de que las medidas se mantienen dentro de las especificaciones del cliente, la media ha aumentado consistentemente tras la introducción de un nuevo lote de materia prima.",
+        "capa_ground_truth": {
+            "contencion": "Retener los tubos producidos después del cambio para realizar ensayos de tracción y elasticidad.",
+            "causa_raiz": "Variación en el índice de fluidez del nuevo lote de polímero que no fue ajustada en las condiciones de extrusión.",
+            "accion_correctiva": "Establecer un procedimiento de homologación previa del índice de fluidez con el proveedor y automatizar el ajuste de temperatura de la extrusora basado en el índice del lote."
+        }
+    },
+    {
+        "id_caso": "CAL_009_VAR3",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Químico / Extrusión de Polímeros",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.6 (Control de los cambios)",
+        "ruta_imagen": "data/imagenes/CAL_009.jpg",
+        "descripcion_imagen": "Captura de pantalla de un sistema de control estadístico de procesos donde la línea de puntos experimenta un salto brusco de nivel vertical hacia arriba, manteniéndose elevado de forma sostenida.",
+        "sop_contexto": "SOP-SPC-08: Un cambio repentino en el nivel medio del proceso indica la introducción de una nueva variable (cambio de lote de materia prima, ajuste de máquina o cambio de utillaje) que debe ser validada por calidad.",
+        "ncr_reporte_planta": "Detectamos un incremento repentino en el nivel medio del diámetro del tubo tras introducir nueva materia prima. Aunque estamos dentro de tolerancia, esto requiere revisión.",
+        "capa_ground_truth": {
+            "contencion": "Los tubos afectados deben almacenarse para pruebas adicionales.",
+            "causa_raiz": "El nuevo lote de materia prima presenta un índice de fluidez diferente no contemplado en los parámetros de la extrusora.",
+            "accion_correctiva": "Solicitar al proveedor que valide el índice de fluidez antes de la entrega y configurar un ajuste automático en la extrusora según el índice del lote."
+        }
+    },
+    {
+        "id_caso": "CAL_009_VAR4",
+        "actividad_calidad": "Control Estadístico de Procesos (SPC)",
+        "sector": "Químico / Extrusión de Polímeros",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.6 (Control de los cambios)",
+        "ruta_imagen": "data/imagenes/CAL_009.jpg",
+        "descripcion_imagen": "Captura de pantalla de un sistema de control estadístico de procesos donde la línea de puntos experimenta un salto brusco de nivel vertical hacia arriba, manteniéndose elevado de forma sostenida.",
+        "sop_contexto": "SOP-SPC-08: Un cambio repentino en el nivel medio del proceso indica la introducción de una nueva variable (cambio de lote de materia prima, ajuste de máquina o cambio de utillaje) que debe ser validada por calidad.",
+        "ncr_reporte_planta": "En el turno de la mañana, notamos que el diámetro del tubo se alteró bruscamente después de cambiar el palet de granza. La producción sigue bajo especificaciones, pero la media se elevó.",
+        "capa_ground_truth": {
+            "contencion": "Separar los tubos producidos tras el cambio para realizar pruebas de resistencia y elasticidad.",
+            "causa_raiz": "Diferencia no ajustada en el índice de fluidez del nuevo lote de granza.",
+            "accion_correctiva": "Requerir al proveedor que certifique el índice de fluidez previamente y ajustar automáticamente la extrusora de acuerdo al lote recibido."
+        }
+    },
+    {
+        "id_caso": "CAL_011_VAR1",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Mecanizado de Precisión / Aeronáutica",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5 (Recursos de seguimiento y medición)",
+        "ruta_imagen": "data/imagenes/CAL_011.jpg",
+        "descripcion_imagen": "Pantalla digital de un micrómetro de exteriores mostrando una lectura fija de 12.545 mm al medir el cuello de un pasador metálico.",
+        "sop_contexto": "Ficha Técnica FT-AERO-44: El pasador de fijación debe presentar un diámetro exterior crítico de 12.500 mm con una tolerancia geométrica de ±0.015 mm (Rango válido: 12.485 mm a 12.515 mm). Instrumento obligatorio: Micrómetro calibrado.",
+        "ncr_reporte_planta": "Medí los pasadores con el micrómetro digital, y muestra 12.545 mm. El ajuste parece correcto, pero el medidor parece estar mal.",
+        "capa_ground_truth": {
+            "contencion": "Apartar todos los pasadores en el área de revisión. Retirar el micrómetro de inmediato.",
+            "causa_raiz": "Pasadores sobredimensionados a 12.545 mm por error en el CNC. Supera los 12.515 mm permitidos.",
+            "accion_correctiva": "Ajustar el programa del CNC, mandar el micrómetro a calibración y no permitir verificaciones visuales."
+        }
+    },
+    {
+        "id_caso": "CAL_011_VAR2",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Mecanizado de Precisión / Aeronáutica",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5 (Recursos de seguimiento y medición)",
+        "ruta_imagen": "data/imagenes/CAL_011.jpg",
+        "descripcion_imagen": "Pantalla digital de un micrómetro de exteriores mostrando una lectura fija de 12.545 mm al medir el cuello de un pasador metálico.",
+        "sop_contexto": "Ficha Técnica FT-AERO-44: El pasador de fijación debe presentar un diámetro exterior crítico de 12.500 mm con una tolerancia geométrica de ±0.015 mm (Rango válido: 12.485 mm a 12.515 mm). Instrumento obligatorio: Micrómetro calibrado.",
+        "ncr_reporte_planta": "Lectura de diámetro en pasadores de titanio indica 12.545 mm mediante micrómetro calibrado. Posible error de calibración.",
+        "capa_ground_truth": {
+            "contencion": "Proceder a la segregación de pasadores en el área de calidad. Retirar el micrómetro de la línea productiva.",
+            "causa_raiz": "Exceso de material en el diámetro externo de 12.545 mm. Error de coordenadas en el programa CNC.",
+            "accion_correctiva": "Reprogramar CNC, recalibrar micrómetro en instalaciones metrológicas, eliminar validaciones visuales."
+        }
+    },
+    {
+        "id_caso": "CAL_011_VAR3",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Mecanizado de Precisión / Aeronáutica",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5 (Recursos de seguimiento y medición)",
+        "ruta_imagen": "data/imagenes/CAL_011.jpg",
+        "descripcion_imagen": "Pantalla digital de un micrómetro de exteriores mostrando una lectura fija de 12.545 mm al medir el cuello de un pasador metálico.",
+        "sop_contexto": "Ficha Técnica FT-AERO-44: El pasador de fijación debe presentar un diámetro exterior crítico de 12.500 mm con una tolerancia geométrica de ±0.015 mm (Rango válido: 12.485 mm a 12.515 mm). Instrumento obligatorio: Micrómetro calibrado.",
+        "ncr_reporte_planta": "Verificación del diámetro en pasadores muestra 12.545 mm, fuera de especificaciones. Conflicto en la medición.",
+        "capa_ground_truth": {
+            "contencion": "Retener el lote afectado en inspección. Sacar el micrómetro digital de uso.",
+            "causa_raiz": "Fabricación incorrecta por un ajuste CNC erróneo, excediendo las tolerancias admitidas.",
+            "accion_correctiva": "Actualizar parámetros CNC, verificar el micrómetro en el laboratorio y prohibir inspecciones visuales."
+        }
+    },
+    {
+        "id_caso": "CAL_011_VAR4",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Mecanizado de Precisión / Aeronáutica",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5 (Recursos de seguimiento y medición)",
+        "ruta_imagen": "data/imagenes/CAL_011.jpg",
+        "descripcion_imagen": "Pantalla digital de un micrómetro de exteriores mostrando una lectura fija de 12.545 mm al medir el cuello de un pasador metálico.",
+        "sop_contexto": "Ficha Técnica FT-AERO-44: El pasador de fijación debe presentar un diámetro exterior crítico de 12.500 mm con una tolerancia geométrica de ±0.015 mm (Rango válido: 12.485 mm a 12.515 mm). Instrumento obligatorio: Micrómetro calibrado.",
+        "ncr_reporte_planta": "Durante el turno, el micrómetro indica 12.545 mm en los pasadores. El ajuste parece estar bien, pero el instrumento está fallando.",
+        "capa_ground_truth": {
+            "contencion": "Mover todos los pasadores afectados a la zona de control. Quitar el micrómetro defectuoso de la línea.",
+            "causa_raiz": "Diámetros excediendo tolerancia hasta 12.545 mm, causado por error de programación CNC.",
+            "accion_correctiva": "Solucionar el programa CNC, enviar micrómetro a recalibración y eliminar revisiones visuales como método de aceptación."
+        }
+    },
+    {
+        "id_caso": "CAL_012_VAR1",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Automoción / Rectificado de Motores",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5",
+        "ruta_imagen": "data/imagenes/CAL_012.jpg",
+        "descripcion_imagen": "Display digital nítido de un alexómetro electrónico industrial para interiores donde se muestra el valor de cota medido de '85.018 mm'.",
+        "sop_contexto": "Ficha FT-MOT-02: El diámetro interior del cilindro rectificado debe ser de 85.000 mm con una tolerancia estricta de +0.010 / -0.000 mm. Las mediciones deben registrarse en tres alturas diferentes del cilindro.",
+        "ncr_reporte_planta": "Cilindro arriba: 85.018 mm. Alexómetro no miente. Máquina completó ciclo sin chistar. Operador confirma.",
+        "capa_ground_truth": {
+            "contencion": "Parar rectificado. Bloquear motor afectado y los tres anteriores.",
+            "causa_raiz": "Cabezote desgastado, sobredimensiona diámetro (85.018 mm > 85.010 mm).",
+            "accion_correctiva": "Cambiar piedras del cabezal, ajustar CNC, medir muestra a la mitad del proceso."
+        }
+    },
+    {
+        "id_caso": "CAL_012_VAR2",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Automoción / Rectificado de Motores",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5",
+        "ruta_imagen": "data/imagenes/CAL_012.jpg",
+        "descripcion_imagen": "Display digital nítido de un alexómetro electrónico industrial para interiores donde se muestra el valor de cota medido de '85.018 mm'.",
+        "sop_contexto": "Ficha FT-MOT-02: El diámetro interior del cilindro rectificado debe ser de 85.000 mm con una tolerancia estricta de +0.010 / -0.000 mm. Las mediciones deben registrarse en tres alturas diferentes del cilindro.",
+        "ncr_reporte_planta": "Durante la inspección, el diámetro superior del cilindro midió 85.018 mm, superando el límite tolerado de 85.010 mm. El ciclo de la máquina se completó sin indicaciones de error.",
+        "capa_ground_truth": {
+            "contencion": "Detener la operación de rectificado y segregar el bloque motor afectado junto con los tres precedentes.",
+            "causa_raiz": "Desgaste del cabezal abrasivo resultando en sobremecanizado (85.018 mm vs. 85.010 mm permitido).",
+            "accion_correctiva": "Reemplazar los elementos abrasivos del cabezal, recalibrar el ciclo CNC e introducir una medición intermedia obligatoria por muestreo."
+        }
+    },
+    {
+        "id_caso": "CAL_012_VAR3",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Automoción / Rectificado de Motores",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5",
+        "ruta_imagen": "data/imagenes/CAL_012.jpg",
+        "descripcion_imagen": "Display digital nítido de un alexómetro electrónico industrial para interiores donde se muestra el valor de cota medido de '85.018 mm'.",
+        "sop_contexto": "Ficha FT-MOT-02: El diámetro interior del cilindro rectificado debe ser de 85.000 mm con una tolerancia estricta de +0.010 / -0.000 mm. Las mediciones deben registrarse en tres alturas diferentes del cilindro.",
+        "ncr_reporte_planta": "Medición en la parte superior del cilindro revela 85.018 mm, excediendo la tolerancia de proceso. Ciclo de máquina indicó completado sin errores.",
+        "capa_ground_truth": {
+            "contencion": "Suspender línea de rectificado y aislar el bloque motor afectado más tres unidades previas.",
+            "causa_raiz": "Mecanizado excesivo debido a desgaste en cabezal abrasivo, resultando en diámetro de 85.018 mm.",
+            "accion_correctiva": "Sustituir componentes abrasivos del cabezal, ajustar programa CNC y establecer medición intermedia mandatoria."
+        }
+    },
+    {
+        "id_caso": "CAL_012_VAR4",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Automoción / Rectificado de Motores",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5",
+        "ruta_imagen": "data/imagenes/CAL_012.jpg",
+        "descripcion_imagen": "Display digital nítido de un alexómetro electrónico industrial para interiores donde se muestra el valor de cota medido de '85.018 mm'.",
+        "sop_contexto": "Ficha FT-MOT-02: El diámetro interior del cilindro rectificado debe ser de 85.000 mm con una tolerancia estricta de +0.010 / -0.000 mm. Las mediciones deben registrarse en tres alturas diferentes del cilindro.",
+        "ncr_reporte_planta": "Reporte de turno: Diámetro del cilindro (85.018 mm) fuera de especificación. Ciclo de máquina finalizado sin alarmas.",
+        "capa_ground_truth": {
+            "contencion": "Interrumpir operaciones y retener bloque motor defectuoso y tres unidades anteriores.",
+            "causa_raiz": "Desgaste del cabezal abrasivo causó sobremecanizado, excediendo límite superior (85.010 mm).",
+            "accion_correctiva": "Reemplazo de piedras abrasivas, ajuste del ciclo de CNC, y medición intermedia por muestreo obligatoria."
+        }
+    },
+    {
+        "id_caso": "CAL_013_VAR1",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Energías Renovables / Circuitos Hidráulicos",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5",
+        "ruta_imagen": "data/imagenes/CAL_013.jpg",
+        "descripcion_imagen": "Pantalla de cristal líquido con retroiluminación azul de un manómetro digital acoplado a un bloque de válvulas, indicando una lectura fija de '232.0 bar'.",
+        "sop_contexto": "SOP-HYD-07: La prueba de presión estática para el circuito del buje de la turbina eólica exige mantener una presión constante de 210 bar ± 5 bar durante un tiempo mínimo de 10 minutos sin caídas de presión.",
+        "ncr_reporte_planta": "Manómetro a 232 bar, aguanta sin fuga. Técnico dice que va bien.",
+        "capa_ground_truth": {
+            "contencion": "Bajar presión ya y parar la prueba.",
+            "causa_raiz": "Exceso de presión (232 bar), servoválvula del banco falló.",
+            "accion_correctiva": "Ajustar válvula de alivio y poner presostato que corte a 220 bar."
+        }
+    },
+    {
+        "id_caso": "CAL_013_VAR2",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Energías Renovables / Circuitos Hidráulicos",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5",
+        "ruta_imagen": "data/imagenes/CAL_013.jpg",
+        "descripcion_imagen": "Pantalla de cristal líquido con retroiluminación azul de un manómetro digital acoplado a un bloque de válvulas, indicando una lectura fija de '232.0 bar'.",
+        "sop_contexto": "SOP-HYD-07: La prueba de presión estática para el circuito del buje de la turbina eólica exige mantener una presión constante de 210 bar ± 5 bar durante un tiempo mínimo de 10 minutos sin caídas de presión.",
+        "ncr_reporte_planta": "La medición de presión del manómetro digital indicó 232 bar de forma constante. Informe del técnico del banco demuestra ausencia de fugas.",
+        "capa_ground_truth": {
+            "contencion": "Reducir de inmediato la presión del sistema hidráulico y suspender el ensayo.",
+            "causa_raiz": "Presión excesiva en el sistema de prueba (232 bar superando el límite de 215 bar según SOP-HYD-07) por fallo en la regulación de la servoválvula.",
+            "accion_correctiva": "Recalibrar la válvula de alivio del banco y instalar un presostato de seguridad que desactive la bomba al sobrepasar 220 bar."
+        }
+    },
+    {
+        "id_caso": "CAL_013_VAR3",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Energías Renovables / Circuitos Hidráulicos",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5",
+        "ruta_imagen": "data/imagenes/CAL_013.jpg",
+        "descripcion_imagen": "Pantalla de cristal líquido con retroiluminación azul de un manómetro digital acoplado a un bloque de válvulas, indicando una lectura fija de '232.0 bar'.",
+        "sop_contexto": "SOP-HYD-07: La prueba de presión estática para el circuito del buje de la turbina eólica exige mantener una presión constante de 210 bar ± 5 bar durante un tiempo mínimo de 10 minutos sin caídas de presión.",
+        "ncr_reporte_planta": "Lectura de presión sostenida a 232 bar en el circuito hidráulico; no hay fugas.",
+        "capa_ground_truth": {
+            "contencion": "Inmediatamente reducir la presión y detener la operación.",
+            "causa_raiz": "Sistema operando a presión excesiva (232 bar) debido a un fallo en la servoválvula.",
+            "accion_correctiva": "Calibrar la válvula de alivio y añadir un dispositivo de corte de presión a 220 bar."
+        }
+    },
+    {
+        "id_caso": "CAL_013_VAR4",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Energías Renovables / Circuitos Hidráulicos",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5",
+        "ruta_imagen": "data/imagenes/CAL_013.jpg",
+        "descripcion_imagen": "Pantalla de cristal líquido con retroiluminación azul de un manómetro digital acoplado a un bloque de válvulas, indicando una lectura fija de '232.0 bar'.",
+        "sop_contexto": "SOP-HYD-07: La prueba de presión estática para el circuito del buje de la turbina eólica exige mantener una presión constante de 210 bar ± 5 bar durante un tiempo mínimo de 10 minutos sin caídas de presión.",
+        "ncr_reporte_planta": "Durante el turno, el manómetro mostró 232 bar sin variaciones, con el circuito funcionando sin fugas.",
+        "capa_ground_truth": {
+            "contencion": "Disminuir presión y parar el banco de pruebas inmediatamente.",
+            "causa_raiz": "La presión del circuito excedió los 215 bar por fallo en la servoválvula.",
+            "accion_correctiva": "Ajustar válvula de sobrepresión y conectar un interruptor de seguridad para 220 bar."
+        }
+    },
+    {
+        "id_caso": "CAL_014_VAR1",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Inyección de Plásticos / Moldes",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5.2 (Trazabilidad de la medición)",
+        "ruta_imagen": "data/imagenes/CAL_014.jpg",
+        "descripcion_imagen": "Etiqueta autoadhesiva verde de calibración metrológica pegada en el chasis metálico de un medidor de alturas mecánico, donde la fecha de caducidad manuscrita corresponde al mes anterior.",
+        "sop_contexto": "SOP-MET-01: Queda prohibido el uso de cualquier equipo de inspección, medición o ensayo cuya etiqueta de calibración esté vencida. El operario debe verificar el estado de la etiqueta antes de iniciar la jornada.",
+        "ncr_reporte_planta": "En la revisión del taller, el compa usa un medidor de alturas con la etiqueta de calibración caducada desde el mes pasado.",
+        "capa_ground_truth": {
+            "contencion": "Sacar ya el medidor de alturas y poner 'No Funciona'. Buscar las piezas medidas con él las últimas semanas.",
+            "causa_raiz": "No se revisan los equipos cada día y el sistema de alertas de calibración falló.",
+            "accion_correctiva": "Calibrar el equipo urgente y pasar a un sistema automático con QR que bloquee el uso."
+        }
+    },
+    {
+        "id_caso": "CAL_014_VAR2",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Inyección de Plásticos / Moldes",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5.2 (Trazabilidad de la medición)",
+        "ruta_imagen": "data/imagenes/CAL_014.jpg",
+        "descripcion_imagen": "Etiqueta autoadhesiva verde de calibración metrológica pegada en el chasis metálico de un medidor de alturas mecánico, donde la fecha de caducidad manuscrita corresponde al mes anterior.",
+        "sop_contexto": "SOP-MET-01: Queda prohibido el uso de cualquier equipo de inspección, medición o ensayo cuya etiqueta de calibración esté vencida. El operario debe verificar el estado de la etiqueta antes de iniciar la jornada.",
+        "ncr_reporte_planta": "Durante la auditoría del laboratorio de metrología, se detectó el uso de un medidor de alturas digital con calibración vencida desde el mes anterior.",
+        "capa_ground_truth": {
+            "contencion": "Retirar inmediatamente el medidor de alturas y etiquetarlo como 'No Operativo'. Identificar las piezas medidas con dicho equipo en las últimas semanas.",
+            "causa_raiz": "Falta de verificación diaria del estado de calibración por el personal y falla en el sistema de notificaciones de metrología.",
+            "accion_correctiva": "Recalibrar el equipo de manera prioritaria y migrar a un sistema de gestión de calibraciones automatizado con bloqueo mediante código QR."
+        }
+    },
+    {
+        "id_caso": "CAL_014_VAR3",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Inyección de Plásticos / Moldes",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5.2 (Trazabilidad de la medición)",
+        "ruta_imagen": "data/imagenes/CAL_014.jpg",
+        "descripcion_imagen": "Etiqueta autoadhesiva verde de calibración metrológica pegada en el chasis metálico de un medidor de alturas mecánico, donde la fecha de caducidad manuscrita corresponde al mes anterior.",
+        "sop_contexto": "SOP-MET-01: Queda prohibido el uso de cualquier equipo de inspección, medición o ensayo cuya etiqueta de calibración esté vencida. El operario debe verificar el estado de la etiqueta antes de iniciar la jornada.",
+        "ncr_reporte_planta": "La auditoría evidencia que un medidor de alturas en uso tiene la calibración caducada desde el mes pasado.",
+        "capa_ground_truth": {
+            "contencion": "Inhabilitar de inmediato el medidor y marcarlo como 'Inactivo'. Revisar todas las piezas medidas recientemente con este instrumento.",
+            "causa_raiz": "El personal omitió la revisión diaria y el sistema de alertas de calibración no funcionó adecuadamente.",
+            "accion_correctiva": "Proceder a la recalibración urgente del equipo y adoptar un software de gestión de calibraciones con restricción QR."
+        }
+    },
+    {
+        "id_caso": "CAL_014_VAR4",
+        "actividad_calidad": "Metrología Dimensional y Calibración",
+        "sector": "Inyección de Plásticos / Moldes",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 7.1.5.2 (Trazabilidad de la medición)",
+        "ruta_imagen": "data/imagenes/CAL_014.jpg",
+        "descripcion_imagen": "Etiqueta autoadhesiva verde de calibración metrológica pegada en el chasis metálico de un medidor de alturas mecánico, donde la fecha de caducidad manuscrita corresponde al mes anterior.",
+        "sop_contexto": "SOP-MET-01: Queda prohibido el uso de cualquier equipo de inspección, medición o ensayo cuya etiqueta de calibración esté vencida. El operario debe verificar el estado de la etiqueta antes de iniciar la jornada.",
+        "ncr_reporte_planta": "En el turno se identificó que el medidor de alturas utilizado tiene una calibración que venció el mes anterior.",
+        "capa_ground_truth": {
+            "contencion": "Apartar de inmediato el medidor de alturas y etiquetarlo como 'Inutilizable'. Revisar las piezas inspeccionadas con este equipo durante las semanas pasadas.",
+            "causa_raiz": "No se realizó la verificación diaria de los equipos por parte del personal, y el sistema de alertas de calibración no emitió notificaciones.",
+            "accion_correctiva": "Recalibrar el equipo prioritariamente y actualizar a un sistema de gestión de calibraciones con bloqueo por QR."
+        }
+    },
+    {
+        "id_caso": "CAL_016_VAR1",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Siderurgia / Estructuras Metálicas",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.2 (Tipo y alcance del control de proveedores)",
+        "ruta_imagen": "data/imagenes/CAL_016.jpg",
+        "descripcion_imagen": "Escaneo nítido de un documento técnico de Certificado de Calidad de Material (MTR) donde una de las filas de la tabla de aleación química detalla textualmente 'S: 0.045%'.",
+        "sop_contexto": "Especificación ESP-MAT-01: Todo acero estructural suministrado bajo la especificación EN 10025 debe certificar un contenido máximo de Azufre (S) del 0.025% para mitigar el riesgo de fragilidad térmica durante la soldadura.",
+        "ncr_reporte_planta": "Camión llegó con vigas, al revisar papeles y certificado, azufre al 0.045%.",
+        "capa_ground_truth": {
+            "contencion": "No descargar ni dejar entrar el camión. Reclamar al proveedor.",
+            "causa_raiz": "El proveedor mandó material con azufre más alto que el 0.025% permitido.",
+            "accion_correctiva": "Bloquear entradas sin datos MTR en ERP y auditar al proveedor."
+        }
+    },
+    {
+        "id_caso": "CAL_016_VAR2",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Siderurgia / Estructuras Metálicas",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.2 (Tipo y alcance del control de proveedores)",
+        "ruta_imagen": "data/imagenes/CAL_016.jpg",
+        "descripcion_imagen": "Escaneo nítido de un documento técnico de Certificado de Calidad de Material (MTR) donde una de las filas de la tabla de aleación química detalla textualmente 'S: 0.045%'.",
+        "sop_contexto": "Especificación ESP-MAT-01: Todo acero estructural suministrado bajo la especificación EN 10025 debe certificar un contenido máximo de Azufre (S) del 0.025% para mitigar el riesgo de fragilidad térmica durante la soldadura.",
+        "ncr_reporte_planta": "Recepción de vigas de acero. Contenido de Azufre reportado en MTR es 0.045%, excediendo EN 10025 y ESP-MAT-01 de 0.025%.",
+        "capa_ground_truth": {
+            "contencion": "Rechazar el lote en recepción y emitir RMA al proveedor.",
+            "causa_raiz": "Material recibido fuera de especificación, con Azufre en 0.045% sobrepasando el 0.025% permitido.",
+            "accion_correctiva": "Configurar ERP para requerir datos MTR al ingreso y realizar auditoría al proveedor."
+        }
+    },
+    {
+        "id_caso": "CAL_016_VAR3",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Siderurgia / Estructuras Metálicas",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.2 (Tipo y alcance del control de proveedores)",
+        "ruta_imagen": "data/imagenes/CAL_016.jpg",
+        "descripcion_imagen": "Escaneo nítido de un documento técnico de Certificado de Calidad de Material (MTR) donde una de las filas de la tabla de aleación química detalla textualmente 'S: 0.045%'.",
+        "sop_contexto": "Especificación ESP-MAT-01: Todo acero estructural suministrado bajo la especificación EN 10025 debe certificar un contenido máximo de Azufre (S) del 0.025% para mitigar el riesgo de fragilidad térmica durante la soldadura.",
+        "ncr_reporte_planta": "Acero estructural recibido muestra 0.045% Azufre. No cumple ESP-MAT-01 (máx. 0.025%).",
+        "capa_ground_truth": {
+            "contencion": "Lote denegado en recepción, iniciar reclamación formal.",
+            "causa_raiz": "El proveedor envió material no conforme, excediendo el límite de Azufre.",
+            "accion_correctiva": "Modificar ERP para impedir ingreso sin verificación MTR y auditar al proveedor."
+        }
+    },
+    {
+        "id_caso": "CAL_016_VAR4",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Siderurgia / Estructuras Metálicas",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.2 (Tipo y alcance del control de proveedores)",
+        "ruta_imagen": "data/imagenes/CAL_016.jpg",
+        "descripcion_imagen": "Escaneo nítido de un documento técnico de Certificado de Calidad de Material (MTR) donde una de las filas de la tabla de aleación química detalla textualmente 'S: 0.045%'.",
+        "sop_contexto": "Especificación ESP-MAT-01: Todo acero estructural suministrado bajo la especificación EN 10025 debe certificar un contenido máximo de Azufre (S) del 0.025% para mitigar el riesgo de fragilidad térmica durante la soldadura.",
+        "ncr_reporte_planta": "Entre paradas de máquina, revisamos vigas de acero. Azufre en MTR es 0.045%, sobrepasa 0.025% de especificación.",
+        "capa_ground_truth": {
+            "contencion": "Camión en espera, no se descarga. Proceder con reclamación.",
+            "causa_raiz": "Material fuera de norma, proveedor entregó vigas con exceso de Azufre.",
+            "accion_correctiva": "ERP debe exigir MTR antes de entrada y auditar proveedor."
+        }
+    },
+    {
+        "id_caso": "CAL_017_VAR1",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Logística / Distribución Industrial",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.2 (Identificación y trazabilidad)",
+        "ruta_imagen": "data/imagenes/CAL_017.jpg",
+        "descripcion_imagen": "Etiqueta de envío industrial GS1-128 pegada sobre cartón corrugado donde las barras negras verticales del código bidimensional presentan un rasguño blanco que corta el patrón.",
+        "sop_contexto": "SOP-REC-02: Todo material que entre a fábrica debe poseer una etiqueta de identificación legible por escáner láser. Las etiquetas rotas, borrosas o incompletas son motivo de rechazo en el muelle de descarga.",
+        "ncr_reporte_planta": "Problema en la recepción: el escáner no puede leer los códigos de las etiquetas de tornillos porque están estropeadas. No se puede procesar.",
+        "capa_ground_truth": {
+            "contencion": "Detener descarga y dejar palets en área de tránsito sin registrarlos.",
+            "causa_raiz": "Problema con la calidad de la impresión de la impresora del proveedor o roce en transporte.",
+            "accion_correctiva": "Solicitar al proveedor nuevas etiquetas y aplicar sanción por problemas de trazabilidad."
+        }
+    },
+    {
+        "id_caso": "CAL_017_VAR2",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Logística / Distribución Industrial",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.2 (Identificación y trazabilidad)",
+        "ruta_imagen": "data/imagenes/CAL_017.jpg",
+        "descripcion_imagen": "Etiqueta de envío industrial GS1-128 pegada sobre cartón corrugado donde las barras negras verticales del código bidimensional presentan un rasguño blanco que corta el patrón.",
+        "sop_contexto": "SOP-REC-02: Todo material que entre a fábrica debe poseer una etiqueta de identificación legible por escáner láser. Las etiquetas rotas, borrosas o incompletas son motivo de rechazo en el muelle de descarga.",
+        "ncr_reporte_planta": "Durante la verificación en la recepción, el escáner de códigos de barra no puede decodificar las etiquetas de los palets de tornillería debido a daños en la impresión, incumpliendo SOP-REC-02.",
+        "capa_ground_truth": {
+            "contencion": "Suspender la manipulación de los palets afectados y mantenerlos en zona de tránsito sin registrarlos en el sistema.",
+            "causa_raiz": "Fallo en la transferencia térmica de la impresora del proveedor o desgaste por fricción en el transporte.",
+            "accion_correctiva": "Requerir al proveedor la reimpresión de las etiquetas defectuosas y establecer una penalización por los fallos en la logística de trazabilidad."
+        }
+    },
+    {
+        "id_caso": "CAL_017_VAR3",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Logística / Distribución Industrial",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.2 (Identificación y trazabilidad)",
+        "ruta_imagen": "data/imagenes/CAL_017.jpg",
+        "descripcion_imagen": "Etiqueta de envío industrial GS1-128 pegada sobre cartón corrugado donde las barras negras verticales del código bidimensional presentan un rasguño blanco que corta el patrón.",
+        "sop_contexto": "SOP-REC-02: Todo material que entre a fábrica debe poseer una etiqueta de identificación legible por escáner láser. Las etiquetas rotas, borrosas o incompletas son motivo de rechazo en el muelle de descarga.",
+        "ncr_reporte_planta": "La recepción de materiales reporta que las etiquetas de los palets de tornillería están ilegibles para el escáner, debido a problemas de impresión.",
+        "capa_ground_truth": {
+            "contencion": "Interrumpir la descarga y retener los palets en la zona de tránsito, sin ingresarlos en el sistema.",
+            "causa_raiz": "Deficiencia en la impresión térmica de las etiquetas o fricción durante el transporte.",
+            "accion_correctiva": "Exigir al proveedor un reetiquetado inmediato del lote y aplicar una penalización financiera por el error de trazabilidad."
+        }
+    },
+    {
+        "id_caso": "CAL_017_VAR4",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Logística / Distribución Industrial",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.5.2 (Identificación y trazabilidad)",
+        "ruta_imagen": "data/imagenes/CAL_017.jpg",
+        "descripcion_imagen": "Etiqueta de envío industrial GS1-128 pegada sobre cartón corrugado donde las barras negras verticales del código bidimensional presentan un rasguño blanco que corta el patrón.",
+        "sop_contexto": "SOP-REC-02: Todo material que entre a fábrica debe poseer una etiqueta de identificación legible por escáner láser. Las etiquetas rotas, borrosas o incompletas son motivo de rechazo en el muelle de descarga.",
+        "ncr_reporte_planta": "En el turno, el escáner de recepción falló al leer las etiquetas de los palets de tornillos; impresión dañada según SOP.",
+        "capa_ground_truth": {
+            "contencion": "Parar la descarga de los palets y dejarlos en zona de tránsito sin entrada al sistema.",
+            "causa_raiz": "Problema con la transferencia térmica de la impresora del proveedor o desgaste por transporte.",
+            "accion_correctiva": "Obligar al proveedor a reetiquetar el lote y aplicar penalización por errores en trazabilidad."
+        }
+    },
+    {
+        "id_caso": "CAL_018_VAR1",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Forja / Componentes de Transmisión",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.2",
+        "ruta_imagen": "data/imagenes/CAL_018.jpg",
+        "descripcion_imagen": "Informe de ensayo metalúrgico impreso en papel térmico donde una línea de datos de salida muestra de forma explícita el valor de 'Dureza Brinell: 145 HB'.",
+        "sop_contexto": "Especificación ESP-MEC-11: Los preformados de acero forjado para engranajes deben certificar tras el tratamiento térmico de recocido una dureza Brinell comprendida estrictamente entre 170 HB y 210 HB.",
+        "ncr_reporte_planta": "Chequeo papeles. Proveedor dice 145 HB en su test. Muy bajo, mínimo es 170 HB.",
+        "capa_ground_truth": {
+            "contencion": "Todo el lote a la jaula de rechazo. Cerrar y etiquetar.",
+            "causa_raiz": "Fallo en el recocido del proveedor, piezas muy blandas.",
+            "accion_correctiva": "Mandar lote de vuelta y pedirles detalles del horno para la próxima."
+        }
+    },
+    {
+        "id_caso": "CAL_018_VAR2",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Forja / Componentes de Transmisión",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.2",
+        "ruta_imagen": "data/imagenes/CAL_018.jpg",
+        "descripcion_imagen": "Informe de ensayo metalúrgico impreso en papel térmico donde una línea de datos de salida muestra de forma explícita el valor de 'Dureza Brinell: 145 HB'.",
+        "sop_contexto": "Especificación ESP-MEC-11: Los preformados de acero forjado para engranajes deben certificar tras el tratamiento térmico de recocido una dureza Brinell comprendida estrictamente entre 170 HB y 210 HB.",
+        "ncr_reporte_planta": "Verificación de la documentación técnica: el informe de dureza del proveedor muestra un promedio de 145 HB, incumpliendo el rango especificado de 170-210 HB.",
+        "capa_ground_truth": {
+            "contencion": "Segregar el lote completo en el área de material rechazado, asegurando acceso restringido.",
+            "causa_raiz": "Tratamiento térmico de recocido inadecuado en las instalaciones del proveedor, resultando en una dureza por debajo de lo requerido.",
+            "accion_correctiva": "Retornar el lote para tratamiento de normalización y requerir al proveedor los registros de temperatura de sus hornos para los próximos lotes."
+        }
+    },
+    {
+        "id_caso": "CAL_018_VAR3",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Forja / Componentes de Transmisión",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.2",
+        "ruta_imagen": "data/imagenes/CAL_018.jpg",
+        "descripcion_imagen": "Informe de ensayo metalúrgico impreso en papel térmico donde una línea de datos de salida muestra de forma explícita el valor de 'Dureza Brinell: 145 HB'.",
+        "sop_contexto": "Especificación ESP-MEC-11: Los preformados de acero forjado para engranajes deben certificar tras el tratamiento térmico de recocido una dureza Brinell comprendida estrictamente entre 170 HB y 210 HB.",
+        "ncr_reporte_planta": "Informe del proveedor indica dureza de 145 HB, fuera del estándar de 170-210 HB.",
+        "capa_ground_truth": {
+            "contencion": "Colocar el lote en la zona de rechazo bajo llave.",
+            "causa_raiz": "Error en el recocido del proveedor, dureza por debajo del mínimo.",
+            "accion_correctiva": "Devolver el lote para normalizar y solicitar gráficos de temperatura de hornos al proveedor."
+        }
+    },
+    {
+        "id_caso": "CAL_018_VAR4",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Forja / Componentes de Transmisión",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.2",
+        "ruta_imagen": "data/imagenes/CAL_018.jpg",
+        "descripcion_imagen": "Informe de ensayo metalúrgico impreso en papel térmico donde una línea de datos de salida muestra de forma explícita el valor de 'Dureza Brinell: 145 HB'.",
+        "sop_contexto": "Especificación ESP-MEC-11: Los preformados de acero forjado para engranajes deben certificar tras el tratamiento térmico de recocido una dureza Brinell comprendida estrictamente entre 170 HB y 210 HB.",
+        "ncr_reporte_planta": "Durante el turno, se revisó la documentación de un lote de engranajes. Informe de dureza del proveedor muestra 145 HB, inferior al estándar mínimo de 170 HB.",
+        "capa_ground_truth": {
+            "contencion": "Lote completo aislado en la jaula de material rechazado, acceso controlado.",
+            "causa_raiz": "Proceso de recocido defectuoso por parte del proveedor, piezas blandas.",
+            "accion_correctiva": "Retornar lote para normalización y exigir al proveedor datos de temperatura del horno para futuras entregas."
+        }
+    },
+    {
+        "id_caso": "CAL_019_VAR1",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Bienes de Consumo / Importación de Motores",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.3 (Información para los proveedores externos)",
+        "ruta_imagen": "data/imagenes/CAL_019.jpg",
+        "descripcion_imagen": "Formulario impreso de Declaración de Conformidad técnica CE de maquinaria industrial donde las líneas inferiores dedicadas a la firma, el sello oficial y la fecha de validez se encuentran vacías.",
+        "sop_contexto": "SOP-LEG-01: Ningún componente eléctrico exterior puede ser admitido en las instalaciones si la Declaración de Conformidad CE obligatoria no está debidamente cumplimentada, fechada, firmada por el representante legal del fabricante y redactada en español.",
+        "ncr_reporte_planta": "Llegaron servos, pero el papel CE está sin firmar y sin fecha. No se puede usar hasta arreglar esto.",
+        "capa_ground_truth": {
+            "contencion": "Dejar el contenedor en la zona de aduanas y no tocar hasta que esté todo en regla.",
+            "causa_raiz": "El proveedor no completó el papeleo como debía. Todo en blanco.",
+            "accion_correctiva": "Pedir que manden el documento firmado en PDF. No se paga ni se manda más hasta que todo esté bien."
+        }
+    },
+    {
+        "id_caso": "CAL_019_VAR2",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Bienes de Consumo / Importación de Motores",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.3 (Información para los proveedores externos)",
+        "ruta_imagen": "data/imagenes/CAL_019.jpg",
+        "descripcion_imagen": "Formulario impreso de Declaración de Conformidad técnica CE de maquinaria industrial donde las líneas inferiores dedicadas a la firma, el sello oficial y la fecha de validez se encuentran vacías.",
+        "sop_contexto": "SOP-LEG-01: Ningún componente eléctrico exterior puede ser admitido en las instalaciones si la Declaración de Conformidad CE obligatoria no está debidamente cumplimentada, fechada, firmada por el representante legal del fabricante y redactada en español.",
+        "ncr_reporte_planta": "Durante la inspección de entrada, se detectó que la Declaración de Conformidad CE de los servomotores importados está incompleta, careciendo de la firma del ingeniero responsable y de la fecha de emisión.",
+        "capa_ground_truth": {
+            "contencion": "Aislar el lote de servomotores en el área aduanera y prohibir su incorporación al ensamblaje.",
+            "causa_raiz": "Deficiencia en la gestión documental por parte del proveedor extranjero, omitiendo completar la declaración CE.",
+            "accion_correctiva": "Solicitar la remisión inmediata del documento debidamente firmado y en formato controlado. Condicionar los pagos futuros a la verificación documental antes del envío."
+        }
+    },
+    {
+        "id_caso": "CAL_019_VAR3",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Bienes de Consumo / Importación de Motores",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.3 (Información para los proveedores externos)",
+        "ruta_imagen": "data/imagenes/CAL_019.jpg",
+        "descripcion_imagen": "Formulario impreso de Declaración de Conformidad técnica CE de maquinaria industrial donde las líneas inferiores dedicadas a la firma, el sello oficial y la fecha de validez se encuentran vacías.",
+        "sop_contexto": "SOP-LEG-01: Ningún componente eléctrico exterior puede ser admitido en las instalaciones si la Declaración de Conformidad CE obligatoria no está debidamente cumplimentada, fechada, firmada por el representante legal del fabricante y redactada en español.",
+        "ncr_reporte_planta": "La documentación CE de los servomotores no está completa: faltan firma y fecha.",
+        "capa_ground_truth": {
+            "contencion": "Retener el contenedor en aduanas y no permitir su uso en producción.",
+            "causa_raiz": "Error administrativo del proveedor al no completar la documentación necesaria.",
+            "accion_correctiva": "Exigir el envío del documento firmado digitalmente y condicionar futuros pagos a la aprobación documental."
+        }
+    },
+    {
+        "id_caso": "CAL_019_VAR4",
+        "actividad_calidad": "Calidad de Recepción (Proveedores)",
+        "sector": "Bienes de Consumo / Importación de Motores",
+        "norma_especifica": "ISO 9001:2015 - Cláusula 8.4.3 (Información para los proveedores externos)",
+        "ruta_imagen": "data/imagenes/CAL_019.jpg",
+        "descripcion_imagen": "Formulario impreso de Declaración de Conformidad técnica CE de maquinaria industrial donde las líneas inferiores dedicadas a la firma, el sello oficial y la fecha de validez se encuentran vacías.",
+        "sop_contexto": "SOP-LEG-01: Ningún componente eléctrico exterior puede ser admitido en las instalaciones si la Declaración de Conformidad CE obligatoria no está debidamente cumplimentada, fechada, firmada por el representante legal del fabricante y redactada en español.",
+        "ncr_reporte_planta": "Se recibió un contenedor de servomotores sin la Declaración CE completa, lo que impide su uso. Esto coincide con un aumento en rechazos en la línea por fallos de documentación.",
+        "capa_ground_truth": {
+            "contencion": "Mantener los servomotores en la zona de recepción hasta que se solucione el problema documental.",
+            "causa_raiz": "Fallo del proveedor al no proporcionar la documentación CE completa, dejando campos vacíos.",
+            "accion_correctiva": "Requerir la entrega inmediata de la documentación correcta en formato digital. Los futuros pagos estarán supeditados a la aprobación previa de la documentación."
+        }
+    }
+]
